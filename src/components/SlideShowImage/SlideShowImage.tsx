@@ -37,7 +37,9 @@ export const SlideShowImage: FunctionComponent<SlideShowImageProps> = () => {
 
     return (
         <Splide options={{
-            rewind: true
+            rewind: true,
+            interval: 2000,
+            autoplay: true
         }}>
             {renderSlider()}
         </Splide>

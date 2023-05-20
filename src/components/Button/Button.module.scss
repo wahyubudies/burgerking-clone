@@ -1,0 +1,17 @@
+@import "../../app/variables.module.scss";
+
+
+.button {
+    background-color: $orange-color;
+    color: $white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    font-family: $flame-regular;
+    font-size: 16px;
+
+    &:hover {
+        background-color: #b46312;
+    }
+}

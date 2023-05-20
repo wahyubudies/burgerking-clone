@@ -6,4 +6,9 @@
 
 body {
     font-family: var(--flame-sans);
+    background: url("/img/BK_bg.jpg") center;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

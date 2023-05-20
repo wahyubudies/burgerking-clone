@@ -1,0 +1,41 @@
+@import "../../app/variables.module.scss";
+
+.card_catalog {
+    padding: 20px;
+    background-color: $white;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 15px -4px #6b6b6b;
+
+    .wrapper_image {
+        width: 100%;
+        height: 180px;
+        position: relative;
+        overflow: hidden;
+
+        .catalog_image {
+            transition: all .50s ease-in-out;
+        }
+    }
+
+    .title {
+        width: 100%;
+        padding: 10px;
+
+        h1 {
+            font-family: $flame-bold;
+            color: $brown-color;
+            font-weight: normal;
+            font-size: 21px;
+            text-align: left;
+        }
+    }
+
+
+    &:hover {
+        .catalog_image {
+            transform: scale(1.1);
+        }
+    }
+}
