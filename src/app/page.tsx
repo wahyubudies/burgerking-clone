@@ -1,3 +1,4 @@
+import { Footer } from '@/components/Footer/Footer';
 import { NavBar } from '@/components/NavBar/NavBar';
 import { SlideShowImage } from '@/components/SlideShowImage/SlideShowImage';
 
@@ -9,7 +10,6 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <NavBar />
       <SlideShowImage />
     </>
   );

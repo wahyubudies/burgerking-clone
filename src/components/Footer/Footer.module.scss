@@ -1,0 +1,92 @@
+@import "../../app/variables.module.scss";
+
+.footer {
+    background-color: $dark-color;
+
+    .content_footer {
+        max-width: 960px;
+        height: auto;
+        margin: 0 auto;
+        padding: 12px 0;
+
+        .title {
+            width: 100%;
+            font-size: 20px;
+            font-family: $flame-regular;
+            color: $white;
+        }
+
+        .phone {
+            font-family: $flame-regular;
+            font-size: 18px;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+
+            .phone_information {
+                color: $white;
+                text-decoration: none;
+
+                .icon_footer {
+                    width: 16px;
+                    margin-right: 8px;
+                }
+
+                .span_phone {
+                    margin-right: 30px;
+                }
+
+                .span_mail {
+                    margin-right: 30px;
+                    font-size: 15px;
+                    font-family: $barlow-medium;
+                }
+            }
+
+            .sosial_media {
+                display: flex;
+                align-items: center;
+
+                a {
+                    img {
+                        width: 16px;
+                        height: 16px;
+                        object-fit: cover;
+                        margin-right: 8px;
+                        position: relative;
+                    }
+                }
+            }
+        }
+
+        .term_condition {
+            margin-top: 10px;
+
+            .right_line {
+                border-right: 1px solid #8a8a8a;
+                padding-right: 12px;
+                margin-left: 10px;
+
+                &:first-child {
+                    margin-left: 0;
+                }
+
+                a {
+                    color: #919191;
+                    text-decoration: none;
+                    font-size: 12px;
+
+                    &:hover {
+                        color: $white;
+                    }
+                }
+            }
+
+            .copyright {
+                margin-left: 10px;
+                color: #919191;
+                font-size: 12px;
+            }
+        }
+    }
+}

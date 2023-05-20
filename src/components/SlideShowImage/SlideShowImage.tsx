@@ -9,7 +9,6 @@ import SliderShowJSON from "@/json/slideshow.json";
 import { SliderType } from "@/type/slider.type";
 
 interface SlideShowImageProps {
-    // setSlider: (SliderType[]);
 }
 
 const laodDataSlideShow = () => new Promise((resolve, reject) => {

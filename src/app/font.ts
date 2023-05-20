@@ -9,7 +9,7 @@ export const BarlowBold = localFont({
 export const BarlowMedium = localFont({
     src: './fonts/Barlow-Medium.ttf',
     display: 'swap',
-    variable: '--barlow-bold',
+    variable: '--barlow-medium',
 });
 
 export const BarlowRegular = localFont({
