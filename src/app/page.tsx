@@ -1,4 +1,5 @@
-import NavBar from '@/components/NavBar/NavBar';
+import { NavBar } from '@/components/NavBar/NavBar';
+import { SlideShowImage } from '@/components/SlideShowImage/SlideShowImage';
 
 export const metadata = {
   title: 'Home - Burger King',
@@ -7,6 +8,9 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <NavBar/>
+    <>
+      <NavBar />
+      <SlideShowImage />
+    </>
   );
 }

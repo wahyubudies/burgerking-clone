@@ -9,12 +9,12 @@ interface NavBarProps {
 
 }
 
-const NavBar: FunctionComponent<NavBarProps> = () => {
+export const NavBar: FunctionComponent<NavBarProps> = () => {
     return (
         <div className={css.navigation_block}>
             <div className="container d-flex justify-content-between h-100">
                 <div className={css.left_navigation}>
-                    <Image src="/img/logo.png" alt="" width={90} height={90} className={css.logo} />
+                    <Image src="/img/logo.png" alt="" width={90} height={90} className={css.logo} priority={true} />
                     <ul>
                         <li>
                             <Link href='/' className="text-decoration-none">
@@ -49,5 +49,3 @@ const NavBar: FunctionComponent<NavBarProps> = () => {
         </div>
     );
 };
-
-export default NavBar;
