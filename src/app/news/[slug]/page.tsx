@@ -3,6 +3,12 @@ import css from "./page.module.scss";
 import Image from "next/image";
 import { newsType } from "@/type/frontliner.type";
 
+export async function generateMetadata(props: DetailNewsProps) {
+    const slug = props.params.slug;
+    const detailNewsData = await loadData(slug) as newsType;
+    return { title: detailNewsData.title + " - Burger King" };
+}
+
 interface DetailNewsProps {
     params: {
         slug: string;
