@@ -1,7 +1,7 @@
 import NEWS_JSON from "@/json/news.json";
 import Image from "next/image";
 import Link from "next/link";
-import { newsType } from "@/type/frontliner.type";
+import { NewsType } from "@/type/frontliner.type";
 
 import css from "./page.module.scss";
 
@@ -23,7 +23,7 @@ export default async function (props: NewsProps) {
 
     const [news] = await Promise.all<any>([newsData]);
 
-    const renderNews = news.map(({ slug, banner }: newsType, i: number) => (
+    const renderNews = news.map(({ slug, banner }: NewsType, i: number) => (
         <Link href={`/news/${slug}`} key={i} className={css.wrapper_banner}>
             <Image src={`/img/news/${banner}`} alt="" width={0} height={0}
                 sizes="100vw" priority style={{ width: '100%', height: 'auto' }} />

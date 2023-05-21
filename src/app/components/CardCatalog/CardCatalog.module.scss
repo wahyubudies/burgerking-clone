@@ -1,4 +1,4 @@
-@import "../../app/variables.module.scss";
+@import "../../../app/variables.module.scss";
 
 .card_catalog {
     padding: 20px;
@@ -28,6 +28,14 @@
             color: $brown-color;
             font-weight: normal;
             font-size: 21px;
+            text-align: left;
+        }
+
+        .price {
+            font-size: 17px;
+            font-family: $flame-regular;
+            color: $brown-color;
+            margin-bottom: 0;
             text-align: left;
         }
     }

@@ -1,0 +1,52 @@
+{
+    "kings-chicken": [
+        {
+            "name": "Paket Crispy 1",
+            "price": 25000,
+            "path": "kings-chicken/paket1.jpg",
+            "code": ""
+        },
+        {
+            "name": "Paket Crispy 2",
+            "price": 45000,
+            "path": "kings-chicken/paket2.jpg",
+            "code": ""
+        },
+        {
+            "name": "Paket Crispy 5",
+            "price": 115000,
+            "path": "kings-chicken/paket3.jpg",
+            "code": ""
+        },
+        {
+            "name": "5 pcs Ayam Crispy",
+            "price": 90909,
+            "path": "kings-chicken/paket4.jpg",
+            "code": ""
+        },
+        {
+            "name": "5 pcs Ayam Spicy 🌶️",
+            "price": 90909,
+            "path": "kings-chicken/paket5.jpg",
+            "code": ""
+        },
+        {
+            "name": "Paket Spicy 1 🌶️",
+            "price": 25000,
+            "path": "kings-chicken/paket6.jpg",
+            "code": ""
+        },
+        {
+            "name": "Paket Spicy 2 🌶️",
+            "price": 45000,
+            "path": "kings-chicken/paket7.jpg",
+            "code": ""
+        },
+        {
+            "name": "Paket Spicy 5 🌶️",
+            "price": 115000,
+            "path": "kings-chicken/paket8.jpg",
+            "code": ""
+        }
+    ]
+}

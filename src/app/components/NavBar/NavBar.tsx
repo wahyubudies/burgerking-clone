@@ -1,7 +1,5 @@
-'use client';
-
 import { FunctionComponent } from "react";
-import css from "@/components/NavBar/NavBar.module.scss";
+import css from "@/app/components/NavBar/NavBar.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,10 +12,12 @@ export const NavBar: FunctionComponent<NavBarProps> = () => {
         <div className={css.navigation_block}>
             <div className="container d-flex justify-content-between h-100">
                 <div className={css.left_navigation}>
-                    <Image src="/img/logo.png" alt="" width={90} height={90} className={css.logo} priority={true} />
+                    <Link href="/">
+                        <Image src="/img/logo.png" alt="" width={90} height={90} className={css.logo} priority={true} />
+                    </Link>
                     <ul>
                         <li>
-                            <Link href='/' className="text-decoration-none">
+                            <Link href='/order' className="text-decoration-none">
                                 <span className={css.subtitle}>Delivery</span>
                                 <span className={css.title}>Order</span>
                             </Link>

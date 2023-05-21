@@ -1,11 +1,11 @@
 import NEWS_JSON from "@/json/news.json";
 import css from "./page.module.scss";
 import Image from "next/image";
-import { newsType } from "@/type/frontliner.type";
+import { NewsType } from "@/type/frontliner.type";
 
 export async function generateMetadata(props: DetailNewsProps) {
     const slug = props.params.slug;
-    const detailNewsData = await loadData(slug) as newsType;
+    const detailNewsData = await loadData(slug) as NewsType;
     return { title: detailNewsData.title + " - Burger King" };
 }
 
@@ -29,7 +29,7 @@ const loadData = (slug: string) => new Promise((resolve, reject) => {
 export default async function (props: DetailNewsProps) {
     const slug = props.params.slug;
 
-    const detailNewsData = await loadData(slug) as newsType;
+    const detailNewsData = await loadData(slug) as NewsType;
 
     const news = await Promise.resolve(detailNewsData);
 

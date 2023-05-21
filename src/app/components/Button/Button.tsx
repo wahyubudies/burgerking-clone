@@ -1,6 +1,6 @@
 'use client';
 
-import css from "@/components/Button/Button.module.scss";
+import css from "@/app/components/Button/Button.module.scss";
 import { FunctionComponent } from "react";
 
 interface ButtonProps {

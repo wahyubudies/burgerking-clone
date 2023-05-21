@@ -1,5 +1,5 @@
-import { SlideShowImage } from '@/components/SlideShowImage/SlideShowImage';
-import { CardCatalog } from '@/components/CardCatalog/CardCatalog';
+import { SlideShowImage } from '@/app/components/SlideShowImage/SlideShowImage';
+import { CardCatalog } from '@/app/components/CardCatalog/CardCatalog';
 import MENU_JSON from "@/json/menu.json";
 import css from "./page.module.scss";
 import { MenuType } from '@/type/frontliner.type';
@@ -19,8 +19,8 @@ export default async function (props: any) {
     const [menu] = await Promise.all<any>([menuData]);
 
     const renderCatalog = menu.map(({ name, filename }: MenuType, i: number) => (
-        <div className="col-4 mb-4" key={i}>
-            <CardCatalog name={name} filename={filename} />
+        <div className="col-12 col-md-6 col-lg-4 mb-4" key={i}>
+            <CardCatalog name={name} path={`/img/menus/${filename}`} />
         </div>
     ));
 

@@ -1,0 +1,39 @@
+@import "../../../app/variables.module.scss";
+
+.wrapper_sidebar {
+    .categories_box {
+        background-color: #fbe6d6;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: normal;
+        margin: 0;
+        position: relative;
+        margin-bottom: 8px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &.active {
+            background-color: $yellow-color !important;
+
+            .text_categories {
+                color: $dark-brown-color !important;
+            }
+        }
+
+        .text_categories {
+            color: $dark-brown-color;
+            font-family: $flame-regular;
+            padding: 7px 20px 9px;
+            text-transform: capitalize;
+            min-height: 36px;
+            font-size: 18px;
+            line-height: 20px;
+            font-weight: normal;
+            display: block;
+            text-decoration: none;
+
+        }
+    }
+}

@@ -1,7 +1,7 @@
 'use client';
 
 import { FunctionComponent } from "react";
-import css from "@/components/Footer/Footer.module.scss";
+import css from "@/app/components/Footer/Footer.module.scss";
 import Link from "next/link";
 
 interface FooterProps {

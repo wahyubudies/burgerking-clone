@@ -16,7 +16,8 @@
     }
 
     .catalog_center {
-        width: 960px;
+        max-width: 960px;
+        width: 90%;
         margin: 0 auto;
     }
 }

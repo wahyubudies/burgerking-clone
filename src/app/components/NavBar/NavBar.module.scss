@@ -1,4 +1,4 @@
-@import '../../app/variables.module.scss';
+@import "../../../app/variables.module.scss";
 
 .navigation_block {
     width: 100%;
@@ -14,10 +14,14 @@
         align-items: center;
         position: relative;
 
-        .logo {
-            margin-top: 30px;
-            position: absolute;
-            z-index: 100;
+        a {
+            position: relative;
+
+            .logo {
+                position: absolute;
+                z-index: 100;
+                margin-top: -30px;
+            }
         }
 
         ul {

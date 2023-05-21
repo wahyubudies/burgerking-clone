@@ -1,62 +1,62 @@
 [
     {
         "filename": "kings-chicken.jpg",
-        "path": "",
+        "slug": "kings-chicken",
         "name": "King's Chicken"
     },
     {
         "filename": "special-menu.jpg",
-        "path": "",
+        "slug": "special-menu",
         "name": "Special Menu"
     },
     {
         "filename": "tropical-whopper.jpg",
-        "path": "",
+        "slug": "tropical-whopper",
         "name": "Tropical Whopper"
     },
     {
         "filename": "bk-app-exclusive.jpg",
-        "path": "",
+        "slug": "bk-app-exclusive",
         "name": "BK App Exclusive"
     },
     {
         "filename": "cheese-burger-favorit.jpg",
-        "path": "",
+        "slug": "cheese-burger-favorit",
         "name": "Cheese Burger Favorit"
     },
     {
         "filename": "cheese-whopper.jpg",
-        "path": "",
+        "slug": "cheese-whopper",
         "name": "Cheese Whopper®"
     },
     {
         "filename": "gold-collection.jpg",
-        "path": "",
+        "slug": "gold-collection",
         "name": "Gold Collection"
     },
     {
         "filename": "kids-meal.jpg",
-        "path": "",
+        "slug": "kids-meal",
         "name": "Kids Meal"
     },
     {
         "filename": "side-&-desserts.jpg",
-        "path": "",
+        "slug": "side-&-desserts",
         "name": "Side & Dessert"
     },
     {
         "filename": "beverages.jpg",
-        "path": "",
+        "slug": "beverages",
         "name": "Beverages"
     },
     {
         "filename": "kings-deals.jpg",
-        "path": "",
+        "slug": "kings-deals",
         "name": "Kings Deals"
     },
     {
         "filename": "kupon-mei.jpg",
-        "path": "",
+        "slug": "kupon-mei",
         "name": "Kupon Mei"
     }
 ]

@@ -1,4 +1,4 @@
-import { NavBar } from '@/components/NavBar/NavBar';
+import { NavBar } from '@/app/components/NavBar/NavBar';
 import {
   BarlowBold, BarlowMedium, BarlowRegular,
   FlameBold, FlameRegular, FlameSans, FlameSansRegular
@@ -6,7 +6,7 @@ import {
 import './globals.css';
 
 import 'bootstrap/dist/css/bootstrap.css';
-import { Footer } from '@/components/Footer/Footer';
+import { Footer } from '@/app/components/Footer/Footer';
 
 export default function RootLayout({
   children,
@@ -20,6 +20,9 @@ export default function RootLayout({
         ${FlameSansRegular.variable} ${BarlowRegular.variable}
         ${FlameSans.variable}
       `}>
+      <head>
+        <title>Burger King</title>
+      </head>
       <body>
         <NavBar />
         {children}
