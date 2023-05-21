@@ -1,0 +1,144 @@
+{
+"path":"beverages/paket1.jpg",
+"name":"Coke Large",
+"code":"2901",
+"price":18182,
+"desc":"Coke Large",
+"slug":"beverages"
+},
+{
+"path":"beverages/paket2.jpg",
+"name":"Coke Medium",
+"code":"2707",
+"price":16818,
+"desc":"Coke Medium",
+"slug":"beverages"
+},
+{
+"path":"beverages/paket3.jpg",
+"name":"Coke Regular",
+"code":"7150",
+"price":9545,
+"desc":"Coke Regular",
+"slug":"beverages"
+},
+{
+"path":"beverages/paket4.jpg",
+"name":"Fanta Large",
+"code":"9710",
+"price":18182,
+"desc":"Fanta Large",
+"slug":"beverages"
+},
+{
+"path":"beverages/paket5.jpg",
+"name":"Fanta Medium",
+"code":"8076",
+"price":16818,
+"desc":"Fanta Medium",
+"slug":"beverages"
+},
+{
+"path":"beverages/paket6.jpg",
+"name":"Fanta Regular",
+"code":"6137",
+"price":9545,
+"desc":"Fanta Regular",
+"slug":"beverages"
+},
+{
+"path":"beverages/paket7.jpg",
+"name":"Sprite Large",
+"code":"7292",
+"price":18182,
+"desc":"Sprite Large",
+"slug":"beverages"
+},
+{
+"path":"beverages/paket8.jpg",
+"name":"Sprite Medium",
+"code":"5677",
+"price":16818,
+"desc":"Sprite Medium",
+"slug":"beverages"
+},
+{
+"path":"beverages/paket9.jpg",
+"name":"Sprite Regular",
+"code":"9143",
+"price":9545,
+"desc":"Sprite Regular",
+"slug":"beverages"
+},
+{
+"path":"beverages/paket10.jpg",
+"name":"Lemon Tea Large",
+"code":"6978",
+"price":18182,
+"desc":"Lemon Tea Large",
+"slug":"beverages"
+},
+{
+"path":"beverages/paket11.jpg",
+"name":"Lemon Tea Medium",
+"code":"9167",
+"price":16818,
+"desc":"Lemon Tea Medium",
+"slug":"beverages"
+},
+{
+"path":"beverages/paket12.jpg",
+"name":"Lemon Tea Regular",
+"code":"6654",
+"price":9545,
+"desc":"Lemon Tea Regular",
+"slug":"beverages"
+},
+{
+"path":"beverages/paket13.jpg",
+"name":"Jasmine Tea Large",
+"code":"8609",
+"price":18182,
+"desc":"Jasmine Tea Large",
+"slug":"beverages"
+},
+{
+"path":"beverages/paket14.jpg",
+"name":"Jasmine Tea Medium",
+"code":"6889",
+"price":16818,
+"desc":"Jasmine Tea Medium",
+"slug":"beverages"
+},
+{
+"path":"beverages/paket15.jpg",
+"name":"Jasmine Tea Regular",
+"code":"8334",
+"price":9545,
+"desc":"Jasmine Tea Regular",
+"slug":"beverages"
+},
+{
+"path":"beverages/paket16.jpg",
+"name":"Kopi Gula Aren Original",
+"code":"8481",
+"price":17273,
+"desc":"Kopi Gula Aren Original",
+"slug":"beverages"
+},
+{
+"path":"beverages/paket17.jpg",
+"name":"MINERAL WATER",
+"code":"9606",
+"price":9091,
+"desc":"AIR MINERAL (600ML)",
+"slug":"beverages"
+},
+{
+"path":"beverages/paket18.jpg",
+"name":"1 LITRE COKE",
+"code":"7061",
+"price":20000,
+"desc":"COCA-COLA (1L)",
+"slug":"beverages"
+}

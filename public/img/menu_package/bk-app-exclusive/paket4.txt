@@ -1,0 +1,88 @@
+{
+"path":"bk-app-exclusive/paket1.jpg",
+"name":"App Exc BBQ Beef Rasher",
+"code":"6378",
+"price":23182,
+"desc":"",
+"slug":"bk-app-exclusive"
+},
+{
+"path":"bk-app-exclusive/paket2.jpg",
+"name":"8 pcs Ayam",
+"code":"8774",
+"price":100000,
+"desc":"8 pcs Ayam [4 besar + 4 Kecil]. Resep Ayam Lebih Renyah dan Gurih.",
+"slug":"bk-app-exclusive"
+},
+{
+"path":"bk-app-exclusive/paket3.jpg",
+"name":"BOGO Paket Besar 1",
+"code":"3903",
+"price":54545,
+"desc":"2 Pcs Ayam Besar + 2 Nasi + 2 Jasmine Tea ukuran Medium. Resep Ayam Lebih Renyah dan Gurih.",
+"slug":"bk-app-exclusive"
+},
+{
+"path":"bk-app-exclusive/paket4.jpg",
+"name":"Promo 4 Pcs Ayam",
+"code":"2605",
+"price":55000,
+"desc":"4 pcs Ayam [2 besar + 2 Kecil]. Resep Ayam Lebih Renyah dan Gurih.",
+"slug":"bk-app-exclusive"
+},
+{
+"path":"bk-app-exclusive/paket5.jpg",
+"name":"BOGO Paket Besar 2",
+"code":"2161",
+"price":76364,
+"desc":"2 Pcs Ayam Besar + 2 Pcs Ayam Kecil + 2 Nasi + 2 Jasmine Tea ukuran Medium.Resep Ayam Lebih Renyah dan Gurih. Harga Normal 88.000",
+"slug":"bk-app-exclusive"
+},
+{
+"path":"bk-app-exclusive/paket6.jpg",
+"name":"2 for 39 BBQ Beef Burger",
+"code":"8595",
+"price":39091,
+"desc":"2 BBQ Beef Burger",
+"slug":"bk-app-exclusive"
+},
+{
+"path":"bk-app-exclusive/paket7.jpg",
+"name":"2 for 39 Mozzarella Beef Burger",
+"code":"4825",
+"price":39091,
+"desc":"2 Mozzarella Beef Burger",
+"slug":"bk-app-exclusive"
+},
+{
+"path":"bk-app-exclusive/paket8.jpg",
+"name":"Add 3 Regular Coke",
+"code":"7059",
+"price":22727,
+"desc":"3 Regular Coke",
+"slug":"bk-app-exclusive"
+},
+{
+"path":"bk-app-exclusive/paket9.jpg",
+"name":"Add 3 Regular Jasmine Tea",
+"code":"9130",
+"price":22727,
+"desc":"Add 3 Regular Jasmine Tea",
+"slug":"bk-app-exclusive"
+},
+{
+"path":"bk-app-exclusive/paket10.jpg",
+"name":"Add 3 Rice",
+"code":"9678",
+"price":15000,
+"desc":"Tambah 3 Nasi",
+"slug":"bk-app-exclusive"
+},
+{
+"path":"bk-app-exclusive/paket11.jpg",
+"name":"2 BBQ Beef Rasher Supreme",
+"code":"4210",
+"price":67273,
+"desc":"2 BBQ Beef Rasher Supreme",
+"slug":"bk-app-exclusive"
+}

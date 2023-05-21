@@ -1,0 +1,32 @@
+{
+"path":"gold-collection/paket1.jpg",
+"name":"King Box BBQ Angus Burger Medium",
+"code":"9883",
+"price":89545,
+"desc":"BBQ Angus Burger + 1 pc Ayam + Nasi + Coke Medium",
+"slug":"gold-collection"
+},
+{
+"path":"gold-collection/paket2.jpg",
+"name":"King Box Cheese Lava Angus Burger Medium",
+"code":"2924",
+"price":94545,
+"desc":"Cheese Lava Angus Burger + 1 pc Ayam + Nasi + Coke Medium",
+"slug":"gold-collection"
+},
+{
+"path":"gold-collection/paket3.jpg",
+"name":"Paket BBQ Angus Burger Medium",
+"code":"8838",
+"price":79545,
+"desc":"BBQ Angus Burger Ala Carte 100% Australian angus patty dengan saus mayonaise dan special saus bbq, ditambah tomat, fresh lettuce, dan fried onion, beef rasher juga melty American cheese yang dibalut dengan multigrain brioche bun yang lembut",
+"slug":"gold-collection"
+},
+{
+"path":"gold-collection/paket4.jpg",
+"name":"Paket Cheese Lava Angus Burger Medium",
+"code":"1619",
+"price":84545,
+"desc":"Cheese Lava Angus Burger Ala Carte 100% Australian angus patty dengan saus mayonaise, fresh lettuce, mozza cheese patty dan juga melty American cheese dibalut dengan multigrain brioche bun yang lembut",
+"slug":"gold-collection"
+}

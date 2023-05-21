@@ -1,0 +1,160 @@
+{
+"path":"side-&-desserts/paket1.jpg",
+"name":"2 pcs Chicken Strips",
+"code":"8405",
+"price":0,
+"desc":"2 pcs Chicken Strips",
+"slug":"side-&-desserts"
+},
+{
+"path":"side-&-desserts/paket2.jpg",
+"name":"Fusion Kitkat®",
+"code":"6316",
+"price":16818,
+"desc":"Es krim vanilla yang creamy di padukan dengan Kit Kat spread yang crunchy",
+"slug":"side-&-desserts"
+},
+{
+"path":"side-&-desserts/paket3.jpg",
+"name":"Fusion Cookies n Cream",
+"code":"6222",
+"price":12727,
+"desc":"Ice cream vanilla yang lembut dipadukan dengan Cookies crumble",
+"slug":"side-&-desserts"
+},
+{
+"path":"side-&-desserts/paket4.jpg",
+"name":"Double Chocolate Pie",
+"code":"6783",
+"price":12727,
+"desc":"Pie isi Coklat Double",
+"slug":"side-&-desserts"
+},
+{
+"path":"side-&-desserts/paket5.jpg",
+"name":"1 pc Ayam Crispy",
+"code":"7730",
+"price":18182,
+"desc":"1 pc Ayam Crispy [ Rasa Baru, Enaknya sampe gigitan terakhir ! ]",
+"slug":"side-&-desserts"
+},
+{
+"path":"side-&-desserts/paket6.jpg",
+"name":"Rice [ Nasi ]",
+"code":"3478",
+"price":6818,
+"desc":"",
+"slug":"side-&-desserts"
+},
+{
+"path":"side-&-desserts/paket7.jpg",
+"name":"Chessy Fries Medium",
+"code":"5458",
+"price":20909,
+"desc":"Chessy Fries ukuran Medium",
+"slug":"side-&-desserts"
+},
+{
+"path":"side-&-desserts/paket8.jpg",
+"name":"CHEESY FRIES",
+"code":"4818",
+"price":12727,
+"desc":"Cheesy Fries ukuran Regular",
+"slug":"side-&-desserts"
+},
+{
+"path":"side-&-desserts/paket9.jpg",
+"name":"Fries Large",
+"code":"1433",
+"price":21818,
+"desc":"Fries ukuran Large",
+"slug":"side-&-desserts"
+},
+{
+"path":"side-&-desserts/paket10.jpg",
+"name":"Fries Medium",
+"code":"9700",
+"price":17273,
+"desc":"",
+"slug":"side-&-desserts"
+},
+{
+"path":"side-&-desserts/paket11.jpg",
+"name":"Fries Regular",
+"code":"5528",
+"price":10545,
+"desc":"",
+"slug":"side-&-desserts"
+},
+{
+"path":"side-&-desserts/paket12.jpg",
+"name":"Milo Cookies & Cream",
+"code":"4465",
+"price":12727,
+"desc":"",
+"slug":"side-&-desserts"
+},
+{
+"path":"side-&-desserts/paket13.jpg",
+"name":"Milo Dinosaur",
+"code":"6647",
+"price":12727,
+"desc":"",
+"slug":"side-&-desserts"
+},
+{
+"path":"side-&-desserts/paket14.jpg",
+"name":"Super Float Coke",
+"code":"3408",
+"price":17273,
+"desc":"Super Float Coke",
+"slug":"side-&-desserts"
+},
+{
+"path":"side-&-desserts/paket15.jpg",
+"name":"Super Float Fanta",
+"code":"7309",
+"price":17273,
+"desc":"",
+"slug":"side-&-desserts"
+},
+{
+"path":"side-&-desserts/paket16.jpg",
+"name":"Super Float Milo",
+"code":"9607",
+"price":17273,
+"desc":"",
+"slug":"side-&-desserts"
+},
+{
+"path":"side-&-desserts/paket17.jpg",
+"name":"Super Float Mango",
+"code":"3171",
+"price":17273,
+"desc":"Super Float Mango",
+"slug":"side-&-desserts"
+},
+{
+"path":"side-&-desserts/paket18.jpg",
+"name":"SUPER FLOAT MOCCA",
+"code":"4144",
+"price":17273,
+"desc":"Iced Mocca dengan Es Krim Vanilla",
+"slug":"side-&-desserts"
+},
+{
+"path":"side-&-desserts/paket19.jpg",
+"name":"PROMO FLOAT VANILLA",
+"code":"5833",
+"price":15000,
+"desc":"Iced Vanilla Latte dengan Es Krim Vanilla",
+"slug":"side-&-desserts"
+},
+{
+"path":"side-&-desserts/paket20.jpg",
+"name":"Strawberry Sunrise",
+"code":"2293",
+"price":15000,
+"desc":"Sjora rasa manggo peach dingin dan segar dengan topping saus strawberry.",
+"slug":"side-&-desserts"
+}

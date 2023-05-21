@@ -18,9 +18,9 @@ export default async function (props: any) {
 
     const [menu] = await Promise.all<any>([menuData]);
 
-    const renderCatalog = menu.map(({ name, filename }: MenuType, i: number) => (
+    const renderCatalog = menu.map(({ name, filename, slug }: MenuType, i: number) => (
         <div className="col-12 col-md-6 col-lg-4 mb-4" key={i}>
-            <CardCatalog name={name} path={`/img/menus/${filename}`} />
+            <CardCatalog name={name} path={`/img/menus/${filename}`} directTo='/order' slug={slug} />
         </div>
     ));
 

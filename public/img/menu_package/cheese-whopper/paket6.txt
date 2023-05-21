@@ -1,0 +1,112 @@
+{
+"path":"cheese-whopper/paket1.jpg",
+"name":"King Box Whopper®",
+"code":"7684",
+"price":86363,
+"desc":"Whopper® + 1pc Ayam + Nasi + Medium Coke",
+"slug":"cheese-whopper"
+},
+{
+"path":"cheese-whopper/paket2.jpg",
+"name":"King Box Cheese Whopper® Medium",
+"code":"5162",
+"price":79545,
+"desc":"Cheese Whopper® + 1 pc Ayam + Nasi + Medium Drink",
+"slug":"cheese-whopper"
+},
+{
+"path":"cheese-whopper/paket3.jpg",
+"name":"King Box Spicy Cheese Whopper® Medium",
+"code":"5008",
+"price":79545,
+"desc":"Spicy Cheese Whopper® + 1 pc Ayam + Nasi + Coke Medium",
+"slug":"cheese-whopper"
+},
+{
+"path":"cheese-whopper/paket4.jpg",
+"name":"King Box Cheese Whopper® JR Regular",
+"code":"4459",
+"price":59545,
+"desc":"",
+"slug":"cheese-whopper"
+},
+{
+"path":"cheese-whopper/paket5.jpg",
+"name":"King Box Spicy Cheese Whopper® JR Regular",
+"code":"2286",
+"price":74090,
+"desc":"Spicy Cheese Whopper® JR + 1 pc Ayam + Nasi + Coke Regular",
+"slug":"cheese-whopper"
+},
+{
+"path":"cheese-whopper/paket6.jpg",
+"name":"WHOPPER® ",
+"code":"9026",
+"price":69545,
+"desc":"100% daging sapi Australia juicy yang dipanggang sempurna dengan daun selada, irisan bawang, dan tomat yang segar dibalut dengan saus mayonais dan saus tomat dan dibungkus dengan roti bun panggang lembut.",
+"slug":"cheese-whopper"
+},
+{
+"path":"cheese-whopper/paket7.jpg",
+"name":"Paket Cheese Whopper® Medium",
+"code":"1475",
+"price":74545,
+"desc":"100% daging sapi Australian juicy yang dipanggang sempurna, dengan pickle renyah, daun selada dan tomat fresh, fried onion caramelize, dibalut mayonnaise dan ketchup, juga melty American cheese dan bun lembut bertabur wijen.",
+"slug":"cheese-whopper"
+},
+{
+"path":"cheese-whopper/paket8.jpg",
+"name":"Paket Spicy Cheese Whopper® Medium",
+"code":"7402",
+"price":69545,
+"desc":"Spicy Cheese Whopper®. 100% daging sapi Australian juicy yang dipanggang sempurna, dengan pickle renyah, daun selada dan tomat fresh, fried onion, dibalut mayonnaise dan saus bulgogi special, melty cheese dan bun lembut bertabur wijen.",
+"slug":"cheese-whopper"
+},
+{
+"path":"cheese-whopper/paket9.jpg",
+"name":"Paket Cheese Whopper® JR Regular",
+"code":"9449",
+"price":49545,
+"desc":"100% daging sapi Australian juicy yang dipanggang sempurna, dengan pickle renyah, daun selada dan tomat fresh, fried onion caramelize, dibalut mayonnaise dan ketchup, juga melty American cheese dan bun lembut bertabur wijen.",
+"slug":"cheese-whopper"
+},
+{
+"path":"cheese-whopper/paket10.jpg",
+"name":"Paket Spicy Cheese Whopper® JR Regular",
+"code":"3970",
+"price":49545,
+"desc":"Spicy Cheese Whopper®. 100% daging sapi Australian juicy yang dipanggang sempurna, dengan pickle renyah, daun selada dan tomat fresh, fried onion, dibalut mayonnaise dan saus bulgogi special, melty cheese dan bun lembut bertabur wijen.",
+"slug":"cheese-whopper"
+},
+{
+"path":"cheese-whopper/paket11.jpg",
+"name":"Spicy Cheese Whopper® JR",
+"code":"7813",
+"price":35909,
+"desc":"Spicy Cheese Whopper® JR Ala Carte",
+"slug":"cheese-whopper"
+},
+{
+"path":"cheese-whopper/paket12.jpg",
+"name":"Cheese Whopper®",
+"code":"2786",
+"price":54545,
+"desc":"",
+"slug":"cheese-whopper"
+},
+{
+"path":"cheese-whopper/paket13.jpg",
+"name":"Cheese Whopper® JR",
+"code":"3670",
+"price":35909,
+"desc":"Whopper® JR Cheese Burger",
+"slug":"cheese-whopper"
+},
+{
+"path":"cheese-whopper/paket14.jpg",
+"name":"Whopper®",
+"code":"8328",
+"price":54545,
+"desc":"100% daging sapi Australia juicy yang dipanggang sempurna dengan daun selada, irisan bawang, dan tomat yang segar dibalut dengan saus mayonais dan saus tomat dan dibungkus dengan roti bun panggang lembut.",
+"slug":"cheese-whopper"
+}

@@ -37,7 +37,7 @@ export const NavBar: FunctionComponent<NavBarProps> = () => {
                     </ul>
                 </div>
                 <div className={css.right_navigation}>
-                    <Link href="/login" className={css.login_block}>
+                    <Link href="/" className={css.login_block}>
                         Login
                     </Link>
                     <div className={css.cart_block}>

@@ -1,0 +1,56 @@
+{
+"path":"kings-deals/paket1.jpg",
+"name":"King Deals Box BBQ Beef Burger",
+"code":"5692",
+"price":39545,
+"desc":"",
+"slug":"kings-deals"
+},
+{
+"path":"kings-deals/paket2.jpg",
+"name":"King Deals Box Beef Burger",
+"code":"7858",
+"price":39545,
+"desc":"",
+"slug":"kings-deals"
+},
+{
+"path":"kings-deals/paket3.jpg",
+"name":"King Deals Box Chicken Burger",
+"code":"9981",
+"price":39545,
+"desc":"",
+"slug":"kings-deals"
+},
+{
+"path":"kings-deals/paket4.jpg",
+"name":"King Deals BBQ Beef Burger",
+"code":"6548",
+"price":29545,
+"desc":"",
+"slug":"kings-deals"
+},
+{
+"path":"kings-deals/paket5.jpg",
+"name":"King Deals Beef Burger Meal",
+"code":"8637",
+"price":28636,
+"desc":"Beef Burger + Regular Fries + Regular Coke",
+"slug":"kings-deals"
+},
+{
+"path":"kings-deals/paket6.jpg",
+"name":"King Deals Chicken Burger Meal",
+"code":"8116",
+"price":28636,
+"desc":"Chicken Burger + Regular Fries + Regular Coke",
+"slug":"kings-deals"
+},
+{
+"path":"kings-deals/paket7.jpg",
+"name":"King Deals Ayam + Nasi Meal",
+"code":"8875",
+"price":28636,
+"desc":"1 pc Ayam + Nasi + Regular Jasmine Tea",
+"slug":"kings-deals"
+},

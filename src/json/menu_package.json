@@ -1,52 +1,1098 @@
-{
-    "kings-chicken": [
-        {
-            "name": "Paket Crispy 1",
-            "price": 25000,
-            "path": "kings-chicken/paket1.jpg",
-            "code": ""
-        },
-        {
-            "name": "Paket Crispy 2",
-            "price": 45000,
-            "path": "kings-chicken/paket2.jpg",
-            "code": ""
-        },
-        {
-            "name": "Paket Crispy 5",
-            "price": 115000,
-            "path": "kings-chicken/paket3.jpg",
-            "code": ""
-        },
-        {
-            "name": "5 pcs Ayam Crispy",
-            "price": 90909,
-            "path": "kings-chicken/paket4.jpg",
-            "code": ""
-        },
-        {
-            "name": "5 pcs Ayam Spicy 🌶️",
-            "price": 90909,
-            "path": "kings-chicken/paket5.jpg",
-            "code": ""
-        },
-        {
-            "name": "Paket Spicy 1 🌶️",
-            "price": 25000,
-            "path": "kings-chicken/paket6.jpg",
-            "code": ""
-        },
-        {
-            "name": "Paket Spicy 2 🌶️",
-            "price": 45000,
-            "path": "kings-chicken/paket7.jpg",
-            "code": ""
-        },
-        {
-            "name": "Paket Spicy 5 🌶️",
-            "price": 115000,
-            "path": "kings-chicken/paket8.jpg",
-            "code": ""
-        }
-    ]
-}
+    {
+        "kings-chicken": [
+            {
+                "name": "Paket Crispy 1",
+                "price": 25000,
+                "path": "kings-chicken/paket1.jpg",
+                "slug": "kings-chicken",
+                "code": "5615",
+                "desc": "1 pc Ayam Crispy + Nasi + Jasmine Tea Medium [ Rasa Baru, Enaknya sampe gigitan terakhir ! ] 𝘗𝘰𝘵𝘰𝘯𝘨𝘢𝘯 𝘢𝘺𝘢𝘮 𝘺𝘢𝘯𝘨 𝘵𝘦𝘳𝘴𝘦𝘥𝘪𝘢 𝘵𝘦𝘳𝘨𝘢𝘯𝘵𝘶𝘯𝘨 𝘬𝘦𝘵𝘦𝘳𝘴𝘦𝘥𝘪𝘢𝘢𝘯 𝘥𝘪 𝘵𝘰𝘬𝘰 𝘱𝘢𝘥𝘢 𝘴𝘢𝘢𝘵 𝘱𝘦𝘮𝘦𝘴𝘢𝘯𝘢𝘯/𝘱𝘦𝘯𝘨𝘪𝘳𝘪𝘮𝘢𝘯"
+            },
+            {
+                "name": "Paket Crispy 2",
+                "price": 45000,
+                "path": "kings-chicken/paket2.jpg",
+                "slug": "kings-chicken",
+                "code": "4007",
+                "desc": "2 pcs Ayam Crispy + Nasi + Jasmine Tea Medium [ Rasa Baru, Enaknya sampe gigitan terakhir ! ]"
+            },
+            {
+                "name": "Paket Crispy 5",
+                "price": 115000,
+                "path": "kings-chicken/paket3.jpg",
+                "slug": "kings-chicken",
+                "code": "2417",
+                "desc": "5 pcs Ayam Crispy + 3 Nasi + 3 Jasmine Tea Medium [ Rasa Baru, Enaknya sampe gigitan terakhir ! ]"
+            },
+            {
+                "name": "5 pcs Ayam Crispy",
+                "price": 90909,
+                "path": "kings-chicken/paket4.jpg",
+                "slug": "kings-chicken",
+                "code": "6233",
+                "desc": "5 pcs Ayam Crispy. [ Rasa Baru, Enaknya sampe gigitan terakhir ! ]"
+            },
+            {
+                "name": "5 pcs Ayam Spicy 🌶️",
+                "price": 90909,
+                "path": "kings-chicken/paket5.jpg",
+                "slug": "kings-chicken",
+                "code": "2088",
+                "desc": "5 pcs Ayam Spicy 🌶️"
+            },
+            {
+                "name": "Paket Spicy 1 🌶️",
+                "price": 25000,
+                "path": "kings-chicken/paket6.jpg",
+                "slug": "kings-chicken",
+                "code": "3911",
+                "desc": "1 pc Ayam Spicy + Nasi + Jasmine Tea Medium"
+            },
+            {
+                "name": "Paket Spicy 2 🌶️",
+                "price": 45000,
+                "path": "kings-chicken/paket7.jpg",
+                "slug": "kings-chicken",
+                "code": "3790",
+                "desc": "2 pcs Ayam Spicy + Nasi + Jasmine Tea Medium"
+            },
+            {
+                "name": "Paket Spicy 5 🌶️",
+                "price": 115000,
+                "path": "kings-chicken/paket8.jpg",
+                "slug": "kings-chicken",
+                "code": "9154",
+                "desc": "5 pcs Ayam Spicy + 3 Nasi + Jasmine Tea Medium"
+            }
+        ],
+        "beverages": [
+            {
+                "path": "beverages/paket1.jpg",
+                "name": "Coke Large",
+                "code": "2901",
+                "price": 18182,
+                "desc": "Coke Large",
+                "slug": "beverages"
+            },
+            {
+                "path": "beverages/paket2.jpg",
+                "name": "Coke Medium",
+                "code": "2707",
+                "price": 16818,
+                "desc": "Coke Medium",
+                "slug": "beverages"
+            },
+            {
+                "path": "beverages/paket3.jpg",
+                "name": "Coke Regular",
+                "code": "7150",
+                "price": 9545,
+                "desc": "Coke Regular",
+                "slug": "beverages"
+            },
+            {
+                "path": "beverages/paket4.jpg",
+                "name": "Fanta Large",
+                "code": "9710",
+                "price": 18182,
+                "desc": "Fanta Large",
+                "slug": "beverages"
+            },
+            {
+                "path": "beverages/paket5.jpg",
+                "name": "Fanta Medium",
+                "code": "8076",
+                "price": 16818,
+                "desc": "Fanta Medium",
+                "slug": "beverages"
+            },
+            {
+                "path": "beverages/paket6.jpg",
+                "name": "Fanta Regular",
+                "code": "6137",
+                "price": 9545,
+                "desc": "Fanta Regular",
+                "slug": "beverages"
+            },
+            {
+                "path": "beverages/paket7.jpg",
+                "name": "Sprite Large",
+                "code": "7292",
+                "price": 18182,
+                "desc": "Sprite Large",
+                "slug": "beverages"
+            },
+            {
+                "path": "beverages/paket8.jpg",
+                "name": "Sprite Medium",
+                "code": "5677",
+                "price": 16818,
+                "desc": "Sprite Medium",
+                "slug": "beverages"
+            },
+            {
+                "path": "beverages/paket9.jpg",
+                "name": "Sprite Regular",
+                "code": "9143",
+                "price": 9545,
+                "desc": "Sprite Regular",
+                "slug": "beverages"
+            },
+            {
+                "path": "beverages/paket10.jpg",
+                "name": "Lemon Tea Large",
+                "code": "6978",
+                "price": 18182,
+                "desc": "Lemon Tea Large",
+                "slug": "beverages"
+            },
+            {
+                "path": "beverages/paket11.jpg",
+                "name": "Lemon Tea Medium",
+                "code": "9167",
+                "price": 16818,
+                "desc": "Lemon Tea Medium",
+                "slug": "beverages"
+            },
+            {
+                "path": "beverages/paket12.jpg",
+                "name": "Lemon Tea Regular",
+                "code": "6654",
+                "price": 9545,
+                "desc": "Lemon Tea Regular",
+                "slug": "beverages"
+            },
+            {
+                "path": "beverages/paket13.jpg",
+                "name": "Jasmine Tea Large",
+                "code": "8609",
+                "price": 18182,
+                "desc": "Jasmine Tea Large",
+                "slug": "beverages"
+            },
+            {
+                "path": "beverages/paket14.jpg",
+                "name": "Jasmine Tea Medium",
+                "code": "6889",
+                "price": 16818,
+                "desc": "Jasmine Tea Medium",
+                "slug": "beverages"
+            },
+            {
+                "path": "beverages/paket15.jpg",
+                "name": "Jasmine Tea Regular",
+                "code": "8334",
+                "price": 9545,
+                "desc": "Jasmine Tea Regular",
+                "slug": "beverages"
+            },
+            {
+                "path": "beverages/paket16.jpg",
+                "name": "Kopi Gula Aren Original",
+                "code": "8481",
+                "price": 17273,
+                "desc": "Kopi Gula Aren Original",
+                "slug": "beverages"
+            },
+            {
+                "path": "beverages/paket17.jpg",
+                "name": "MINERAL WATER",
+                "code": "9606",
+                "price": 9091,
+                "desc": "AIR MINERAL (600ML)",
+                "slug": "beverages"
+            },
+            {
+                "path": "beverages/paket18.jpg",
+                "name": "1 LITRE COKE",
+                "code": "7061",
+                "price": 20000,
+                "desc": "COCA-COLA (1L)",
+                "slug": "beverages"
+            }
+        ],
+        "bk-app-exclusive": [
+            {
+                "path": "bk-app-exclusive/paket1.jpg",
+                "name": "App Exc BBQ Beef Rasher",
+                "code": "6378",
+                "price": 23182,
+                "desc": "",
+                "slug": "bk-app-exclusive"
+            },
+            {
+                "path": "bk-app-exclusive/paket2.jpg",
+                "name": "8 pcs Ayam",
+                "code": "8774",
+                "price": 100000,
+                "desc": "8 pcs Ayam [4 besar + 4 Kecil]. Resep Ayam Lebih Renyah dan Gurih.",
+                "slug": "bk-app-exclusive"
+            },
+            {
+                "path": "bk-app-exclusive/paket3.jpg",
+                "name": "BOGO Paket Besar 1",
+                "code": "3903",
+                "price": 54545,
+                "desc": "2 Pcs Ayam Besar + 2 Nasi + 2 Jasmine Tea ukuran Medium. Resep Ayam Lebih Renyah dan Gurih.",
+                "slug": "bk-app-exclusive"
+            },
+            {
+                "path": "bk-app-exclusive/paket4.jpg",
+                "name": "Promo 4 Pcs Ayam",
+                "code": "2605",
+                "price": 55000,
+                "desc": "4 pcs Ayam [2 besar + 2 Kecil]. Resep Ayam Lebih Renyah dan Gurih.",
+                "slug": "bk-app-exclusive"
+            },
+            {
+                "path": "bk-app-exclusive/paket5.jpg",
+                "name": "BOGO Paket Besar 2",
+                "code": "2161",
+                "price": 76364,
+                "desc": "2 Pcs Ayam Besar + 2 Pcs Ayam Kecil + 2 Nasi + 2 Jasmine Tea ukuran Medium.Resep Ayam Lebih Renyah dan Gurih. Harga Normal 88.000",
+                "slug": "bk-app-exclusive"
+            },
+            {
+                "path": "bk-app-exclusive/paket6.jpg",
+                "name": "2 for 39 BBQ Beef Burger",
+                "code": "8595",
+                "price": 39091,
+                "desc": "2 BBQ Beef Burger",
+                "slug": "bk-app-exclusive"
+            },
+            {
+                "path": "bk-app-exclusive/paket7.jpg",
+                "name": "2 for 39 Mozzarella Beef Burger",
+                "code": "4825",
+                "price": 39091,
+                "desc": "2 Mozzarella Beef Burger",
+                "slug": "bk-app-exclusive"
+            },
+            {
+                "path": "bk-app-exclusive/paket8.jpg",
+                "name": "Add 3 Regular Coke",
+                "code": "7059",
+                "price": 22727,
+                "desc": "3 Regular Coke",
+                "slug": "bk-app-exclusive"
+            },
+            {
+                "path": "bk-app-exclusive/paket9.jpg",
+                "name": "Add 3 Regular Jasmine Tea",
+                "code": "9130",
+                "price": 22727,
+                "desc": "Add 3 Regular Jasmine Tea",
+                "slug": "bk-app-exclusive"
+            },
+            {
+                "path": "bk-app-exclusive/paket10.jpg",
+                "name": "Add 3 Rice",
+                "code": "9678",
+                "price": 15000,
+                "desc": "Tambah 3 Nasi",
+                "slug": "bk-app-exclusive"
+            },
+            {
+                "path": "bk-app-exclusive/paket11.jpg",
+                "name": "2 BBQ Beef Rasher Supreme",
+                "code": "4210",
+                "price": 67273,
+                "desc": "2 BBQ Beef Rasher Supreme",
+                "slug": "bk-app-exclusive"
+            }
+        ],
+        "cheese-burger-favorit": [
+            {
+                "path": "cheese-burger-favorit/paket1.jpg",
+                "name": "King Box Cheeseburger Regular",
+                "code": "8955",
+                "price": 49545,
+                "desc": "Cheeseburger + 1 pc Ayam + Nasi + Coke Regular",
+                "slug": "cheese-burger-favorit"
+            },
+            {
+                "path": "cheese-burger-favorit/paket2.jpg",
+                "name": "King Box Double Cheeseburger Regular",
+                "code": "4294",
+                "price": 54546,
+                "desc": "Double Cheeseburger + 1 pc Ayam + Nasi + Coke Regular",
+                "slug": "cheese-burger-favorit"
+            },
+            {
+                "path": "cheese-burger-favorit/paket3.jpg",
+                "name": "King Box Mozzarella Cheeseburger Regular",
+                "code": "4345",
+                "price": 60000,
+                "desc": "Mozzarella Cheeseburger + 1 pc Ayam + Nasi + Coke Regular",
+                "slug": "cheese-burger-favorit"
+            },
+            {
+                "path": "cheese-burger-favorit/paket4.jpg",
+                "name": "King Deals Box Cheeseburger Supreme Regular",
+                "code": "1373",
+                "price": 55000,
+                "desc": "Cheeseburger Supreme + 1 pc Ayam + Nasi + Coke Regular",
+                "slug": "cheese-burger-favorit"
+            },
+            {
+                "path": "cheese-burger-favorit/paket5.jpg",
+                "name": "King Box Royal Chicken Regular",
+                "code": "8522",
+                "price": 55000,
+                "desc": "Royal Chicken Burger + 1 pc Ayam + Nasi + Coke Regular",
+                "slug": "cheese-burger-favorit"
+            },
+            {
+                "path": "cheese-burger-favorit/paket6.jpg",
+                "name": "Paket Cheeseburger Regular",
+                "code": "4570",
+                "price": 39545,
+                "desc": "100% daging sapi Australia juicy yang dipanggang sempurna dengan kesegaran acar, saus mustard, saus tomat, dan potongan keju yang gurih, serta dibungkus dengan roti bun panggang lembut.",
+                "slug": "cheese-burger-favorit"
+            },
+            {
+                "path": "cheese-burger-favorit/paket7.jpg",
+                "name": "Paket Double Cheeseburger Regular",
+                "code": "6613",
+                "price": 49091,
+                "desc": "Double 100% daging sapi Australia juicy yang dipanggang sempurna dengan kesegaran acar, saus mustard, saus tomat, dan potongan keju yang gurih, serta dibungkus dengan roti bun panggang lembut.",
+                "slug": "cheese-burger-favorit"
+            },
+            {
+                "path": "cheese-burger-favorit/paket8.jpg",
+                "name": "Paket Mozzarella Cheeseburger Regular",
+                "code": "4198",
+                "price": 50000,
+                "desc": "",
+                "slug": "cheese-burger-favorit"
+            },
+            {
+                "path": "cheese-burger-favorit/paket9.jpg",
+                "name": "Paket Cheeseburger Supreme Regular",
+                "code": "1648",
+                "price": 45000,
+                "desc": "100% daging sapi Australia juicy yang dipanggang sempurna dengan kesegaran acar, Beef Rasher, Saus mustard, saus tomat, dan potongan keju yang gurih, serta dibungkus dengan roti bun panggang lembut.",
+                "slug": "cheese-burger-favorit"
+            },
+            {
+                "path": "cheese-burger-favorit/paket10.jpg",
+                "name": "Paket Chicken Royal Burger Regular",
+                "code": "9691",
+                "price": 45000,
+                "desc": "Chicken patty fillet juicy renyah tanpa MSG dengan daun selada fresh dan saus mayonnaise special, juga melty American cheese dibalut bun lembut.",
+                "slug": "cheese-burger-favorit"
+            },
+            {
+                "path": "cheese-burger-favorit/paket11.jpg",
+                "name": "Double Cheeseburger",
+                "code": "5765",
+                "price": 35455,
+                "desc": "Double 100% daging sapi Australia juicy yang dipanggang sempurna dengan kesegaran acar, saus mustard, saus tomat, dan potongan keju yang gurih, serta dibungkus dengan roti bun panggang lembut",
+                "slug": "cheese-burger-favorit"
+            },
+            {
+                "path": "cheese-burger-favorit/paket12.jpg",
+                "name": "Mozzarella Cheeseburger",
+                "code": "5035",
+                "price": 36364,
+                "desc": "",
+                "slug": "cheese-burger-favorit"
+            },
+            {
+                "path": "cheese-burger-favorit/paket13.jpg",
+                "name": "Royal Chicken Burger",
+                "code": "6825",
+                "price": 31364,
+                "desc": "",
+                "slug": "cheese-burger-favorit"
+            }
+        ],
+        "cheese-whopper": [
+            {
+                "path": "cheese-whopper/paket1.jpg",
+                "name": "King Box Whopper®",
+                "code": "7684",
+                "price": 86363,
+                "desc": "Whopper® + 1pc Ayam + Nasi + Medium Coke",
+                "slug": "cheese-whopper"
+            },
+            {
+                "path": "cheese-whopper/paket2.jpg",
+                "name": "King Box Cheese Whopper® Medium",
+                "code": "5162",
+                "price": 79545,
+                "desc": "Cheese Whopper® + 1 pc Ayam + Nasi + Medium Drink",
+                "slug": "cheese-whopper"
+            },
+            {
+                "path": "cheese-whopper/paket3.jpg",
+                "name": "King Box Spicy Cheese Whopper® Medium",
+                "code": "5008",
+                "price": 79545,
+                "desc": "Spicy Cheese Whopper® + 1 pc Ayam + Nasi + Coke Medium",
+                "slug": "cheese-whopper"
+            },
+            {
+                "path": "cheese-whopper/paket4.jpg",
+                "name": "King Box Cheese Whopper® JR Regular",
+                "code": "4459",
+                "price": 59545,
+                "desc": "",
+                "slug": "cheese-whopper"
+            },
+            {
+                "path": "cheese-whopper/paket5.jpg",
+                "name": "King Box Spicy Cheese Whopper® JR Regular",
+                "code": "2286",
+                "price": 74090,
+                "desc": "Spicy Cheese Whopper® JR + 1 pc Ayam + Nasi + Coke Regular",
+                "slug": "cheese-whopper"
+            },
+            {
+                "path": "cheese-whopper/paket6.jpg",
+                "name": "WHOPPER® ",
+                "code": "9026",
+                "price": 69545,
+                "desc": "100% daging sapi Australia juicy yang dipanggang sempurna dengan daun selada, irisan bawang, dan tomat yang segar dibalut dengan saus mayonais dan saus tomat dan dibungkus dengan roti bun panggang lembut.",
+                "slug": "cheese-whopper"
+            },
+            {
+                "path": "cheese-whopper/paket7.jpg",
+                "name": "Paket Cheese Whopper® Medium",
+                "code": "1475",
+                "price": 74545,
+                "desc": "100% daging sapi Australian juicy yang dipanggang sempurna, dengan pickle renyah, daun selada dan tomat fresh, fried onion caramelize, dibalut mayonnaise dan ketchup, juga melty American cheese dan bun lembut bertabur wijen.",
+                "slug": "cheese-whopper"
+            },
+            {
+                "path": "cheese-whopper/paket8.jpg",
+                "name": "Paket Spicy Cheese Whopper® Medium",
+                "code": "7402",
+                "price": 69545,
+                "desc": "Spicy Cheese Whopper®. 100% daging sapi Australian juicy yang dipanggang sempurna, dengan pickle renyah, daun selada dan tomat fresh, fried onion, dibalut mayonnaise dan saus bulgogi special, melty cheese dan bun lembut bertabur wijen.",
+                "slug": "cheese-whopper"
+            },
+            {
+                "path": "cheese-whopper/paket9.jpg",
+                "name": "Paket Cheese Whopper® JR Regular",
+                "code": "9449",
+                "price": 49545,
+                "desc": "100% daging sapi Australian juicy yang dipanggang sempurna, dengan pickle renyah, daun selada dan tomat fresh, fried onion caramelize, dibalut mayonnaise dan ketchup, juga melty American cheese dan bun lembut bertabur wijen.",
+                "slug": "cheese-whopper"
+            },
+            {
+                "path": "cheese-whopper/paket10.jpg",
+                "name": "Paket Spicy Cheese Whopper® JR Regular",
+                "code": "3970",
+                "price": 49545,
+                "desc": "Spicy Cheese Whopper®. 100% daging sapi Australian juicy yang dipanggang sempurna, dengan pickle renyah, daun selada dan tomat fresh, fried onion, dibalut mayonnaise dan saus bulgogi special, melty cheese dan bun lembut bertabur wijen.",
+                "slug": "cheese-whopper"
+            },
+            {
+                "path": "cheese-whopper/paket11.jpg",
+                "name": "Spicy Cheese Whopper® JR",
+                "code": "7813",
+                "price": 35909,
+                "desc": "Spicy Cheese Whopper® JR Ala Carte",
+                "slug": "cheese-whopper"
+            },
+            {
+                "path": "cheese-whopper/paket12.jpg",
+                "name": "Cheese Whopper®",
+                "code": "2786",
+                "price": 54545,
+                "desc": "",
+                "slug": "cheese-whopper"
+            },
+            {
+                "path": "cheese-whopper/paket13.jpg",
+                "name": "Cheese Whopper® JR",
+                "code": "3670",
+                "price": 35909,
+                "desc": "Whopper® JR Cheese Burger",
+                "slug": "cheese-whopper"
+            },
+            {
+                "path": "cheese-whopper/paket14.jpg",
+                "name": "Whopper®",
+                "code": "8328",
+                "price": 54545,
+                "desc": "100% daging sapi Australia juicy yang dipanggang sempurna dengan daun selada, irisan bawang, dan tomat yang segar dibalut dengan saus mayonais dan saus tomat dan dibungkus dengan roti bun panggang lembut.",
+                "slug": "cheese-whopper"
+            }
+        ],
+        "gold-collection": [
+            {
+                "path": "gold-collection/paket1.jpg",
+                "name": "King Box BBQ Angus Burger Medium",
+                "code": "9883",
+                "price": 89545,
+                "desc": "BBQ Angus Burger + 1 pc Ayam + Nasi + Coke Medium",
+                "slug": "gold-collection"
+            },
+            {
+                "path": "gold-collection/paket2.jpg",
+                "name": "King Box Cheese Lava Angus Burger Medium",
+                "code": "2924",
+                "price": 94545,
+                "desc": "Cheese Lava Angus Burger + 1 pc Ayam + Nasi + Coke Medium",
+                "slug": "gold-collection"
+            },
+            {
+                "path": "gold-collection/paket3.jpg",
+                "name": "Paket BBQ Angus Burger Medium",
+                "code": "8838",
+                "price": 79545,
+                "desc": "BBQ Angus Burger Ala Carte 100% Australian angus patty dengan saus mayonaise dan special saus bbq, ditambah tomat, fresh lettuce, dan fried onion, beef rasher juga melty American cheese yang dibalut dengan multigrain brioche bun yang lembut",
+                "slug": "gold-collection"
+            },
+            {
+                "path": "gold-collection/paket4.jpg",
+                "name": "Paket Cheese Lava Angus Burger Medium",
+                "code": "1619",
+                "price": 84545,
+                "desc": "Cheese Lava Angus Burger Ala Carte 100% Australian angus patty dengan saus mayonaise, fresh lettuce, mozza cheese patty dan juga melty American cheese dibalut dengan multigrain brioche bun yang lembut",
+                "slug": "gold-collection"
+            }
+        ],
+        "kids-meal": [
+            {
+                "path": "kids-meal/paket1.jpg",
+                "name": "King JR Cheeseburger",
+                "code": "3203",
+                "price": 31818,
+                "desc": "KIds Cheeseburger + Regular Fries + Regular Ice Milo",
+                "slug": "kids-meal"
+            },
+            {
+                "path": "kids-meal/paket2.jpg",
+                "name": "King JR Chicken Burger",
+                "code": "9160",
+                "price": 31818,
+                "desc": "Chicken Burger + Regular Fries + Regular Ice Milo",
+                "slug": "kids-meal"
+            },
+            {
+                "path": "kids-meal/paket3.jpg",
+                "name": "King JR Crispy Chicken",
+                "code": "1114",
+                "price": 31818,
+                "desc": "1 pc Ayam + Nasi + Ice Milo Regular",
+                "slug": "kids-meal"
+            }
+        ],
+        "kings-deals": [
+            {
+                "path": "kings-deals/paket1.jpg",
+                "name": "King Deals Box BBQ Beef Burger",
+                "code": "5692",
+                "price": 39545,
+                "desc": "",
+                "slug": "kings-deals"
+            },
+            {
+                "path": "kings-deals/paket2.jpg",
+                "name": "King Deals Box Beef Burger",
+                "code": "7858",
+                "price": 39545,
+                "desc": "",
+                "slug": "kings-deals"
+            },
+            {
+                "path": "kings-deals/paket3.jpg",
+                "name": "King Deals Box Chicken Burger",
+                "code": "9981",
+                "price": 39545,
+                "desc": "",
+                "slug": "kings-deals"
+            },
+            {
+                "path": "kings-deals/paket4.jpg",
+                "name": "King Deals BBQ Beef Burger",
+                "code": "6548",
+                "price": 29545,
+                "desc": "",
+                "slug": "kings-deals"
+            },
+            {
+                "path": "kings-deals/paket5.jpg",
+                "name": "King Deals Beef Burger Meal",
+                "code": "8637",
+                "price": 28636,
+                "desc": "Beef Burger + Regular Fries + Regular Coke",
+                "slug": "kings-deals"
+            },
+            {
+                "path": "kings-deals/paket6.jpg",
+                "name": "King Deals Chicken Burger Meal",
+                "code": "8116",
+                "price": 28636,
+                "desc": "Chicken Burger + Regular Fries + Regular Coke",
+                "slug": "kings-deals"
+            },
+            {
+                "path": "kings-deals/paket7.jpg",
+                "name": "King Deals Ayam + Nasi Meal",
+                "code": "8875",
+                "price": 28636,
+                "desc": "1 pc Ayam + Nasi + Regular Jasmine Tea",
+                "slug": "kings-deals"
+            }
+        ],
+        "kupon-mei": [
+            {
+                "path": "kupon-mei/paket1.jpg",
+                "name": "K1A 0423 [ Ayam + Nasi ]",
+                "code": "6637",
+                "price": 15000,
+                "desc": "1 Pcs Ayam + Nasi",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket2.jpg",
+                "name": "K1B 0423 [ 2 Ayam + Nasi ]",
+                "code": "9196",
+                "price": 27727,
+                "desc": "2 Ayam + Nasi",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket3.jpg",
+                "name": "K2A 0423 [ Paket 2 Ayam + Nasi ]",
+                "code": "8512",
+                "price": 36636,
+                "desc": "Paket 2 Ayam + Nasi + Jasmine Tea Regular",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket4.jpg",
+                "name": "K2B 0423 [ 3 Pcs Ayam ]",
+                "code": "7397",
+                "price": 36364,
+                "desc": "3 Pcs Ayam",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket5.jpg",
+                "name": "K3A 0423 [ Chicken Burger ]",
+                "code": "6520",
+                "price": 15000,
+                "desc": "Chicken Burger",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket6.jpg",
+                "name": "K3B 0423 [ Chicken Cheese Burger + Coke Regular ]",
+                "code": "8156",
+                "price": 22273,
+                "desc": "Chicken Cheese Burger + Coke Regular",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket7.jpg",
+                "name": "K4A 0423 [ 2 Chicken Cheese Burger ]",
+                "code": "9436",
+                "price": 35000,
+                "desc": "2 Chicken Cheese Burger",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket8.jpg",
+                "name": "K4B 0423 [ Ayam + Cheeseburger ]",
+                "code": "9771",
+                "price": 35000,
+                "desc": "Ayam + Cheeseburger",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket9.jpg",
+                "name": "K5 0423 [ Beef Burger ]",
+                "code": "7507",
+                "price": 18182,
+                "desc": "",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket10.jpg",
+                "name": "K6 0423 [ Bbq Beef Burger ]",
+                "code": "8322",
+                "price": 19091,
+                "desc": "Bbq Beef Burger",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket11.jpg",
+                "name": "K7 0423 [ Ayam + Fries Regular + Jasmine Regular ]",
+                "code": "9481",
+                "price": 33636,
+                "desc": "Ayam + Fries Regular + Jasmine Regular",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket12.jpg",
+                "name": "K8 0423 [ 5 Pcs Ayam + 3 Nasi + 2 Fries + 3 Jasmine Tea ]",
+                "code": "7580",
+                "price": 99091,
+                "desc": "5 Pcs Ayam + 3 Nasi + 2 Fries + 3 Jasmine Tea",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket13.jpg",
+                "name": "K9 0423 [ 4 Pcs Ayam + 4 Rice + 3 Chicken Burger + 1 Beef Burger + 4 Jasmine Tea ]",
+                "code": "8535",
+                "price": 135455,
+                "desc": "4 Pcs Ayam + 4 Rice + 3 Chicken Burger + 1 Beef Burger + 4 Jasmine Tea",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket14.jpg",
+                "name": "K11A 0423 [ Vanilla Sundae ]",
+                "code": "8727",
+                "price": 6364,
+                "desc": "Vanilla Sundae",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket15.jpg",
+                "name": "K11B 0423 [ Choco Sundae ]",
+                "code": "7642",
+                "price": 8636,
+                "desc": "Choco Sundae",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket16.jpg",
+                "name": "K12 0423 [ Fries Regular ]",
+                "code": "8576",
+                "price": 7727,
+                "desc": "Fries Regular",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket17.jpg",
+                "name": "K13A 0423 [ Milo Float Regular ]",
+                "code": "6287",
+                "price": 7727,
+                "desc": "Milo Float Regular",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket18.jpg",
+                "name": "K13B 0423 [ Milo Dinosaur ]",
+                "code": "7637",
+                "price": 10000,
+                "desc": "Milo Dinosaur",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket19.jpg",
+                "name": "K14 0423 [ Cheesy Fries ]",
+                "code": "6010",
+                "price": 10000,
+                "desc": "Cheesy Fries",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket20.jpg",
+                "name": "K15 0423 [ Coke Regular + Jasmine Regular ]",
+                "code": "8422",
+                "price": 10909,
+                "desc": "Coke Regular + Jasmine Regular",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket21.jpg",
+                "name": "K16 0423 [ Fries Regular + Coke Regular ]",
+                "code": "6379",
+                "price": 11818,
+                "desc": "Fries Regular + Coke Regular",
+                "slug": "kupon-mei"
+            },
+            {
+                "path": "kupon-mei/paket22.jpg",
+                "name": "K17 0423 [ Fusion Cookies + Fries Regular ]",
+                "code": "6708",
+                "price": 15000,
+                "desc": "Fusion Cookies + Fries Regular",
+                "slug": "kupon-mei"
+            }
+        ],
+        "side-&-desserts": [
+            {
+                "path": "side-&-desserts/paket1.jpg",
+                "name": "2 pcs Chicken Strips",
+                "code": "8405",
+                "price": 0,
+                "desc": "2 pcs Chicken Strips",
+                "slug": "side-&-desserts"
+            },
+            {
+                "path": "side-&-desserts/paket2.jpg",
+                "name": "Fusion Kitkat®",
+                "code": "6316",
+                "price": 16818,
+                "desc": "Es krim vanilla yang creamy di padukan dengan Kit Kat spread yang crunchy",
+                "slug": "side-&-desserts"
+            },
+            {
+                "path": "side-&-desserts/paket3.jpg",
+                "name": "Fusion Cookies n Cream",
+                "code": "6222",
+                "price": 12727,
+                "desc": "Ice cream vanilla yang lembut dipadukan dengan Cookies crumble",
+                "slug": "side-&-desserts"
+            },
+            {
+                "path": "side-&-desserts/paket4.jpg",
+                "name": "Double Chocolate Pie",
+                "code": "6783",
+                "price": 12727,
+                "desc": "Pie isi Coklat Double",
+                "slug": "side-&-desserts"
+            },
+            {
+                "path": "side-&-desserts/paket5.jpg",
+                "name": "1 pc Ayam Crispy",
+                "code": "7730",
+                "price": 18182,
+                "desc": "1 pc Ayam Crispy [ Rasa Baru, Enaknya sampe gigitan terakhir ! ]",
+                "slug": "side-&-desserts"
+            },
+            {
+                "path": "side-&-desserts/paket6.jpg",
+                "name": "Rice [ Nasi ]",
+                "code": "3478",
+                "price": 6818,
+                "desc": "",
+                "slug": "side-&-desserts"
+            },
+            {
+                "path": "side-&-desserts/paket7.jpg",
+                "name": "Chessy Fries Medium",
+                "code": "5458",
+                "price": 20909,
+                "desc": "Chessy Fries ukuran Medium",
+                "slug": "side-&-desserts"
+            },
+            {
+                "path": "side-&-desserts/paket8.jpg",
+                "name": "CHEESY FRIES",
+                "code": "4818",
+                "price": 12727,
+                "desc": "Cheesy Fries ukuran Regular",
+                "slug": "side-&-desserts"
+            },
+            {
+                "path": "side-&-desserts/paket9.jpg",
+                "name": "Fries Large",
+                "code": "1433",
+                "price": 21818,
+                "desc": "Fries ukuran Large",
+                "slug": "side-&-desserts"
+            },
+            {
+                "path": "side-&-desserts/paket10.jpg",
+                "name": "Fries Medium",
+                "code": "9700",
+                "price": 17273,
+                "desc": "",
+                "slug": "side-&-desserts"
+            },
+            {
+                "path": "side-&-desserts/paket11.jpg",
+                "name": "Fries Regular",
+                "code": "5528",
+                "price": 10545,
+                "desc": "",
+                "slug": "side-&-desserts"
+            },
+            {
+                "path": "side-&-desserts/paket12.jpg",
+                "name": "Milo Cookies & Cream",
+                "code": "4465",
+                "price": 12727,
+                "desc": "",
+                "slug": "side-&-desserts"
+            },
+            {
+                "path": "side-&-desserts/paket13.jpg",
+                "name": "Milo Dinosaur",
+                "code": "6647",
+                "price": 12727,
+                "desc": "",
+                "slug": "side-&-desserts"
+            },
+            {
+                "path": "side-&-desserts/paket14.jpg",
+                "name": "Super Float Coke",
+                "code": "3408",
+                "price": 17273,
+                "desc": "Super Float Coke",
+                "slug": "side-&-desserts"
+            },
+            {
+                "path": "side-&-desserts/paket15.jpg",
+                "name": "Super Float Fanta",
+                "code": "7309",
+                "price": 17273,
+                "desc": "",
+                "slug": "side-&-desserts"
+            },
+            {
+                "path": "side-&-desserts/paket16.jpg",
+                "name": "Super Float Milo",
+                "code": "9607",
+                "price": 17273,
+                "desc": "",
+                "slug": "side-&-desserts"
+            },
+            {
+                "path": "side-&-desserts/paket17.jpg",
+                "name": "Super Float Mango",
+                "code": "3171",
+                "price": 17273,
+                "desc": "Super Float Mango",
+                "slug": "side-&-desserts"
+            },
+            {
+                "path": "side-&-desserts/paket18.jpg",
+                "name": "SUPER FLOAT MOCCA",
+                "code": "4144",
+                "price": 17273,
+                "desc": "Iced Mocca dengan Es Krim Vanilla",
+                "slug": "side-&-desserts"
+            },
+            {
+                "path": "side-&-desserts/paket19.jpg",
+                "name": "PROMO FLOAT VANILLA",
+                "code": "5833",
+                "price": 15000,
+                "desc": "Iced Vanilla Latte dengan Es Krim Vanilla",
+                "slug": "side-&-desserts"
+            },
+            {
+                "path": "side-&-desserts/paket20.jpg",
+                "name": "Strawberry Sunrise",
+                "code": "2293",
+                "price": 15000,
+                "desc": "Sjora rasa manggo peach dingin dan segar dengan topping saus strawberry.",
+                "slug": "side-&-desserts"
+            }
+        ],
+        "special-menu": [
+            {
+                "path": "special-menu/paket1.jpg",
+                "name": "Paket 1 Pcs Ayam Madura Medium",
+                "code": "6130",
+                "price": 35909,
+                "desc": "1 Pc Ayam, 1 Bumbu Madura, 1 Nasi & 1 Jasmine Tea Medium Add Extras",
+                "slug": "special-menu"
+            },
+            {
+                "path": "special-menu/paket2.jpg",
+                "name": "Paket 2 Pcs Ayam Madura Medium",
+                "code": "3630",
+                "price": 51364,
+                "desc": "2 Pcs Ayam, 1 Bumbu Madura, 1 Nasi & 1 Jasmine Tea Medium",
+                "slug": "special-menu"
+            },
+            {
+                "path": "special-menu/paket3.jpg",
+                "name": "King Box Ayam Madura Regular",
+                "code": "7237",
+                "price": 51364,
+                "desc": "1 Pc Ayam, 1 Bumbu Madura, 1 Nasi, 1 Cheeseburger & 1 Jasmine Tea Regular",
+                "slug": "special-menu"
+            },
+            {
+                "path": "special-menu/paket4.jpg",
+                "name": "King Box Ayam Madura Large",
+                "code": "1410",
+                "price": 63637,
+                "desc": "1 Pc Ayam, 1 Bumbu Madura, 1 Nasi , 1 Cheeseburger & 1 Jasmine Tea Large",
+                "slug": "special-menu"
+            },
+            {
+                "path": "special-menu/paket5.jpg",
+                "name": "Paket 5 Pcs Ayam Madura",
+                "code": "2838",
+                "price": 134545,
+                "desc": "5 Pc Ayam, 3 Bumbu Madura, 3 Nasi & 3 Jasmine Tea Regular",
+                "slug": "special-menu"
+            },
+            {
+                "path": "special-menu/paket6.jpg",
+                "name": "Paket Rame - Rame Ayam Madura",
+                "code": "4721",
+                "price": 240000,
+                "desc": "5 Pc Ayam, 3 Nasi, 3 Bumbu Madura, 2 Cheese Whopper® Jr, 1 Cheeseburger Supreme, 3 Fries Regular, 3 Jasmine Tea Regular & 3 Coke Regular",
+                "slug": "special-menu"
+            },
+            {
+                "path": "special-menu/paket7.jpg",
+                "name": "1 pc Ayam Madura",
+                "code": "1149",
+                "price": 25000,
+                "desc": "1 Pcs Ayam Madura Kings Chicken juicy renyah tanpa MSG dengan bumbu Madura yang special",
+                "slug": "special-menu"
+            },
+            {
+                "path": "special-menu/paket8.jpg",
+                "name": "2 PCS AYAM MADURA",
+                "code": "7285",
+                "price": 45000,
+                "desc": "2 Pcs Ayam Madura",
+                "slug": "special-menu"
+            },
+            {
+                "path": "special-menu/paket9.jpg",
+                "name": "Bumbu Madura BK",
+                "code": "1460",
+                "price": 7273,
+                "desc": "Bumbu Madura BK",
+                "slug": "special-menu"
+            },
+            {
+                "path": "special-menu/paket10.jpg",
+                "name": "King Fusion Nastar Crumble",
+                "code": "9874",
+                "price": 15000,
+                "desc": "Ice cream vanilla yang lembut dibalut selai nastar asam manis dan bertabur nastar crumble",
+                "slug": "special-menu"
+            }
+        ],
+        "tropical-whopper": [
+            {
+                "path": "tropical-whopper/paket1.jpg",
+                "name": "King Box Tropical Whopper® Medium",
+                "code": "2992",
+                "price": 89545,
+                "desc": "Tropical Whopper® + 1 pc Ayam + Nasi + Coke Medium",
+                "slug": "tropical-whopper"
+            },
+            {
+                "path": "tropical-whopper/paket2.jpg",
+                "name": "King Box Tropical Whopper® Jr Regular",
+                "code": "2660",
+                "price": 65000,
+                "desc": "Tropical Whopper® Jr + 1 pc Ayam + Nasi + Coke Regular",
+                "slug": "tropical-whopper"
+            },
+            {
+                "path": "tropical-whopper/paket3.jpg",
+                "name": "Paket Tropical Whopper® Medium",
+                "code": "6931",
+                "price": 79545,
+                "desc": "100% daging sapi Australian juicy yang dipanggang sempurna, dengan 4pc beef bacon gurih, fresh letuce dan nanas segar, juga 2pc melty American cheese, dibalut dengan mayonaise dan sweet and spicy saus, beserta bun lembut bertabur wijen.",
+                "slug": "tropical-whopper"
+            },
+            {
+                "path": "tropical-whopper/paket4.jpg",
+                "name": "Paket Tropical Whopper® Jr Regular",
+                "code": "2331",
+                "price": 55000,
+                "desc": "100% daging sapi Australian juicy yang dipanggang sempurna, dengan 2pc beef bacon gurih, fresh letuce dan nanas segar, juga 1pc melty American cheese, dibalut dengan mayonaise dan sweet and spicy saus, beserta bun lembut bertabur wijen.",
+                "slug": "tropical-whopper"
+            }
+        ]
+    }

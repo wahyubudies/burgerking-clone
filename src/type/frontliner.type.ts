@@ -23,4 +23,6 @@ export type PackageType = {
     price: number;
     path: string;
     code: string;
+    desc: string;
+    slug: string;
 };

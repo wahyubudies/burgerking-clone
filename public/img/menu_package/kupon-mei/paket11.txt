@@ -1,0 +1,176 @@
+{
+"path":"kupon-mei/paket1.jpg",
+"name":"K1A 0423 [ Ayam + Nasi ]",
+"code":"6637",
+"price":15000,
+"desc":"1 Pcs Ayam + Nasi",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket2.jpg",
+"name":"K1B 0423 [ 2 Ayam + Nasi ]",
+"code":"9196",
+"price":27727,
+"desc":"2 Ayam + Nasi",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket3.jpg",
+"name":"K2A 0423 [ Paket 2 Ayam + Nasi ]",
+"code":"8512",
+"price":36636,
+"desc":"Paket 2 Ayam + Nasi + Jasmine Tea Regular",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket4.jpg",
+"name":"K2B 0423 [ 3 Pcs Ayam ]",
+"code":"7397",
+"price":36364,
+"desc":"3 Pcs Ayam",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket5.jpg",
+"name":"K3A 0423 [ Chicken Burger ]",
+"code":"6520",
+"price":15000,
+"desc":"Chicken Burger",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket6.jpg",
+"name":"K3B 0423 [ Chicken Cheese Burger + Coke Regular ]",
+"code":"8156",
+"price":22273,
+"desc":"Chicken Cheese Burger + Coke Regular",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket7.jpg",
+"name":"K4A 0423 [ 2 Chicken Cheese Burger ]",
+"code":"9436",
+"price":35000,
+"desc":"2 Chicken Cheese Burger",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket8.jpg",
+"name":"K4B 0423 [ Ayam + Cheeseburger ]",
+"code":"9771",
+"price":35000,
+"desc":"Ayam + Cheeseburger",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket9.jpg",
+"name":"K5 0423 [ Beef Burger ]",
+"code":"7507",
+"price":18182,
+"desc":"",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket10.jpg",
+"name":"K6 0423 [ Bbq Beef Burger ]",
+"code":"8322",
+"price":19091,
+"desc":"Bbq Beef Burger",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket11.jpg",
+"name":"K7 0423 [ Ayam + Fries Regular + Jasmine Regular ]",
+"code":"9481",
+"price":33636,
+"desc":"Ayam + Fries Regular + Jasmine Regular",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket12.jpg",
+"name":"K8 0423 [ 5 Pcs Ayam + 3 Nasi + 2 Fries + 3 Jasmine Tea ]",
+"code":"7580",
+"price":99091,
+"desc":"5 Pcs Ayam + 3 Nasi + 2 Fries + 3 Jasmine Tea",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket13.jpg",
+"name":"K9 0423 [ 4 Pcs Ayam + 4 Rice + 3 Chicken Burger + 1 Beef Burger + 4 Jasmine Tea ]",
+"code":"8535",
+"price":135455,
+"desc":"4 Pcs Ayam + 4 Rice + 3 Chicken Burger + 1 Beef Burger + 4 Jasmine Tea",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket14.jpg",
+"name":"K11A 0423 [ Vanilla Sundae ]",
+"code":"8727",
+"price":6364,
+"desc":"Vanilla Sundae",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket15.jpg",
+"name":"K11B 0423 [ Choco Sundae ]",
+"code":"7642",
+"price":8636,
+"desc":"Choco Sundae",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket16.jpg",
+"name":"K12 0423 [ Fries Regular ]",
+"code":"8576",
+"price":7727,
+"desc":"Fries Regular",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket17.jpg",
+"name":"K13A 0423 [ Milo Float Regular ]",
+"code":"6287",
+"price":7727,
+"desc":"Milo Float Regular",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket18.jpg",
+"name":"K13B 0423 [ Milo Dinosaur ]",
+"code":"7637",
+"price":10000,
+"desc":"Milo Dinosaur",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket19.jpg",
+"name":"K14 0423 [ Cheesy Fries ]",
+"code":"6010",
+"price":10000,
+"desc":"Cheesy Fries",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket20.jpg",
+"name":"K15 0423 [ Coke Regular + Jasmine Regular ]",
+"code":"8422",
+"price":10909,
+"desc":"Coke Regular + Jasmine Regular",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket21.jpg",
+"name":"K16 0423 [ Fries Regular + Coke Regular ]",
+"code":"6379",
+"price":11818,
+"desc":"Fries Regular + Coke Regular",
+"slug":"kupon-mei"
+},
+{
+"path":"kupon-mei/paket22.jpg",
+"name":"K17 0423 [ Fusion Cookies + Fries Regular ]",
+"code":"6708",
+"price":15000,
+"desc":"Fusion Cookies + Fries Regular",
+"slug":"kupon-mei"
+}

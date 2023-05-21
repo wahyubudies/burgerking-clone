@@ -1,0 +1,95 @@
+@import "../../../variables.module.scss";
+
+.content_wrapper {
+    max-width: 960px;
+    margin: 30px auto 30vh;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 0 30px;
+    box-shadow: 2px 2px 15px -4px #6b6b6b;
+
+    .left {
+        padding: 30px 0;
+        border-right: 1px solid #e0e0e0;
+
+        .title {
+            font: 30px/35px $flame-regular;
+            text-transform: capitalize;
+            text-align: center;
+            color: $brown-color;
+            margin: 0px 10px;
+        }
+
+        .desc_menu {
+            font: 14px/20px $flame-sans;
+            width: 85%;
+            margin: 10px auto 20px;
+        }
+
+        .extras {
+            width: 85%;
+            margin: auto;
+            font: 21px/28px $flame-regular;
+            color: $brown-color;
+            margin-top: 30px;
+        }
+    }
+
+    .right {
+        padding: 30px 10px 30px 30px;
+
+        .grand_total {
+            font: 28px/32px $barlow-medium;
+        }
+
+        .add_ons {
+            color: $brown-color;
+            vertical-align: top;
+            font-weight: bold;
+            font: 11px/18px $barlow-regular;
+        }
+
+        .wrapper_qty {
+            border-radius: 5px;
+            border: 1px solid #e0e0e0;
+            height: 37px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            width: 100%;
+
+            .button_min {
+                background-color: #fff;
+                border: none;
+                cursor: pointer;
+                outline: none;
+                width: 45px;
+                padding: 0;
+            }
+
+            .input_qty {
+                // flex-grow: 1;
+                border: none;
+                box-sizing: initial;
+                color: #919191;
+                font-size: 17px;
+                font-family: "Flame-Regular";
+                margin-bottom: 0px;
+                padding: 0 8px;
+                text-align: center;
+                height: 35px;
+                // border-top: 1px solid #e0e0e0;
+                // border-bottom: 1px solid #e0e0e0;
+            }
+
+            .button_add {
+                background-color: #fff;
+                border: none;
+                cursor: pointer;
+                outline: none;
+                width: 45px;
+                padding: 0;
+            }
+        }
+    }
+}

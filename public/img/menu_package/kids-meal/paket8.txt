@@ -1,0 +1,24 @@
+{
+"path":"kids-meal/paket1.jpg",
+"name":"King JR Cheeseburger",
+"code":"3203",
+"price":31818,
+"desc":"KIds Cheeseburger + Regular Fries + Regular Ice Milo",
+"slug":"kids-meal"
+},
+{
+"path":"kids-meal/paket2.jpg",
+"name":"King JR Chicken Burger",
+"code":"9160",
+"price":31818,
+"desc":"Chicken Burger + Regular Fries + Regular Ice Milo",
+"slug":"kids-meal"
+},
+{
+"path":"kids-meal/paket3.jpg",
+"name":"King JR Crispy Chicken",
+"code":"1114",
+"price":31818,
+"desc":"1 pc Ayam + Nasi + Ice Milo Regular",
+"slug":"kids-meal"
+},

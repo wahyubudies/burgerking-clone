@@ -1,0 +1,81 @@
+{
+"path":"special-menu/paket1.jpg",
+"name":"Paket 1 Pcs Ayam Madura Medium",
+"code":"6130",
+"price":35909,
+"desc":"1 Pc Ayam, 1 Bumbu Madura, 1 Nasi & 1 Jasmine Tea Medium
+Add Extras",
+"slug":"special-menu"
+},
+{
+"path":"special-menu/paket2.jpg",
+"name":"Paket 2 Pcs Ayam Madura Medium",
+"code":"3630",
+"price":51364,
+"desc":"2 Pcs Ayam, 1 Bumbu Madura, 1 Nasi & 1 Jasmine Tea Medium",
+"slug":"special-menu"
+},
+{
+"path":"special-menu/paket3.jpg",
+"name":"King Box Ayam Madura Regular",
+"code":"7237",
+"price":51364,
+"desc":"1 Pc Ayam, 1 Bumbu Madura, 1 Nasi, 1 Cheeseburger & 1 Jasmine Tea Regular",
+"slug":"special-menu"
+},
+{
+"path":"special-menu/paket4.jpg",
+"name":"King Box Ayam Madura Large",
+"code":"1410",
+"price":63637,
+"desc":"1 Pc Ayam, 1 Bumbu Madura, 1 Nasi , 1 Cheeseburger & 1 Jasmine Tea Large",
+"slug":"special-menu"
+},
+{
+"path":"special-menu/paket5.jpg",
+"name":"Paket 5 Pcs Ayam Madura",
+"code":"2838",
+"price":134545,
+"desc":"5 Pc Ayam, 3 Bumbu Madura, 3 Nasi & 3 Jasmine Tea Regular",
+"slug":"special-menu"
+},
+{
+"path":"special-menu/paket6.jpg",
+"name":"Paket Rame - Rame Ayam Madura",
+"code":"4721",
+"price":240000,
+"desc":"5 Pc Ayam, 3 Nasi, 3 Bumbu Madura, 2 Cheese Whopper® Jr, 1 Cheeseburger Supreme, 3 Fries Regular, 3 Jasmine Tea Regular & 3 Coke Regular",
+"slug":"special-menu"
+},
+{
+"path":"special-menu/paket7.jpg",
+"name":"1 pc Ayam Madura",
+"code":"1149",
+"price":25000,
+"desc":"1 Pcs Ayam Madura Kings Chicken juicy renyah tanpa MSG dengan bumbu Madura yang special",
+"slug":"special-menu"
+},
+{
+"path":"special-menu/paket8.jpg",
+"name":"2 PCS AYAM MADURA",
+"code":"7285",
+"price":45000,
+"desc":"2 Pcs Ayam Madura",
+"slug":"special-menu"
+},
+{
+"path":"special-menu/paket9.jpg",
+"name":"Bumbu Madura BK",
+"code":"1460",
+"price":7273,
+"desc":"Bumbu Madura BK",
+"slug":"special-menu"
+},
+{
+"path":"special-menu/paket10.jpg",
+"name":"King Fusion Nastar Crumble",
+"code":"9874",
+"price":15000,
+"desc":"Ice cream vanilla yang lembut dibalut selai nastar asam manis dan bertabur nastar crumble",
+"slug":"special-menu"
+}

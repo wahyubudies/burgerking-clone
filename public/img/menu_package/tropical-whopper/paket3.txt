@@ -1,0 +1,32 @@
+{
+"path":"tropical-whopper/paket1.jpg",
+"name":"King Box Tropical Whopper® Medium",
+"code":"2992",
+"price":89545,
+"desc":"Tropical Whopper® + 1 pc Ayam + Nasi + Coke Medium",
+"slug":"tropical-whopper"
+},
+{
+"path":"tropical-whopper/paket2.jpg",
+"name":"King Box Tropical Whopper® Jr Regular",
+"code":"2660",
+"price":65000,
+"desc":"Tropical Whopper® Jr + 1 pc Ayam + Nasi + Coke Regular",
+"slug":"tropical-whopper"
+},
+{
+"path":"tropical-whopper/paket3.jpg",
+"name":"Paket Tropical Whopper® Medium",
+"code":"6931",
+"price":79545,
+"desc":"100% daging sapi Australian juicy yang dipanggang sempurna, dengan 4pc beef bacon gurih, fresh letuce dan nanas segar, juga 2pc melty American cheese, dibalut dengan mayonaise dan sweet and spicy saus, beserta bun lembut bertabur wijen.",
+"slug":"tropical-whopper"
+},
+{
+"path":"tropical-whopper/paket4.jpg",
+"name":"Paket Tropical Whopper® Jr Regular",
+"code":"2331",
+"price":55000,
+"desc":"100% daging sapi Australian juicy yang dipanggang sempurna, dengan 2pc beef bacon gurih, fresh letuce dan nanas segar, juga 1pc melty American cheese, dibalut dengan mayonaise dan sweet and spicy saus, beserta bun lembut bertabur wijen.",
+"slug":"tropical-whopper"
+}

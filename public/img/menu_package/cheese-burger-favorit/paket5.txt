@@ -1,0 +1,104 @@
+{
+"path":"cheese-burger-favorit/paket1.jpg",
+"name":"King Box Cheeseburger Regular",
+"code":"8955",
+"price":49545,
+"desc":"Cheeseburger + 1 pc Ayam + Nasi + Coke Regular",
+"slug":"cheese-burger-favorit"
+},
+{
+"path":"cheese-burger-favorit/paket2.jpg",
+"name":"King Box Double Cheeseburger Regular",
+"code":"4294",
+"price":54546,
+"desc":"Double Cheeseburger + 1 pc Ayam + Nasi + Coke Regular",
+"slug":"cheese-burger-favorit"
+},
+{
+"path":"cheese-burger-favorit/paket3.jpg",
+"name":"King Box Mozzarella Cheeseburger Regular",
+"code":"4345",
+"price":60000,
+"desc":"Mozzarella Cheeseburger + 1 pc Ayam + Nasi + Coke Regular",
+"slug":"cheese-burger-favorit"
+},
+{
+"path":"cheese-burger-favorit/paket4.jpg",
+"name":"King Deals Box Cheeseburger Supreme Regular",
+"code":"1373",
+"price":55000,
+"desc":"Cheeseburger Supreme + 1 pc Ayam + Nasi + Coke Regular",
+"slug":"cheese-burger-favorit"
+},
+{
+"path":"cheese-burger-favorit/paket5.jpg",
+"name":"King Box Royal Chicken Regular",
+"code":"8522",
+"price":55000,
+"desc":"Royal Chicken Burger + 1 pc Ayam + Nasi + Coke Regular",
+"slug":"cheese-burger-favorit"
+},
+{
+"path":"cheese-burger-favorit/paket6.jpg",
+"name":"Paket Cheeseburger Regular",
+"code":"4570",
+"price":39545,
+"desc":"100% daging sapi Australia juicy yang dipanggang sempurna dengan kesegaran acar, saus mustard, saus tomat, dan potongan keju yang gurih, serta dibungkus dengan roti bun panggang lembut.",
+"slug":"cheese-burger-favorit"
+},
+{
+"path":"cheese-burger-favorit/paket7.jpg",
+"name":"Paket Double Cheeseburger Regular",
+"code":"6613",
+"price":49091,
+"desc":"Double 100% daging sapi Australia juicy yang dipanggang sempurna dengan kesegaran acar, saus mustard, saus tomat, dan potongan keju yang gurih, serta dibungkus dengan roti bun panggang lembut.",
+"slug":"cheese-burger-favorit"
+},
+{
+"path":"cheese-burger-favorit/paket8.jpg",
+"name":"Paket Mozzarella Cheeseburger Regular",
+"code":"4198",
+"price":50000,
+"desc":"",
+"slug":"cheese-burger-favorit"
+},
+{
+"path":"cheese-burger-favorit/paket9.jpg",
+"name":"Paket Cheeseburger Supreme Regular",
+"code":"1648",
+"price":45000,
+"desc":"100% daging sapi Australia juicy yang dipanggang sempurna dengan kesegaran acar, Beef Rasher, Saus mustard, saus tomat, dan potongan keju yang gurih, serta dibungkus dengan roti bun panggang lembut.",
+"slug":"cheese-burger-favorit"
+},
+{
+"path":"cheese-burger-favorit/paket10.jpg",
+"name":"Paket Chicken Royal Burger Regular",
+"code":"9691",
+"price":45000,
+"desc":"Chicken patty fillet juicy renyah tanpa MSG dengan daun selada fresh dan saus mayonnaise special, juga melty American cheese dibalut bun lembut.",
+"slug":"cheese-burger-favorit"
+},
+{
+"path":"cheese-burger-favorit/paket11.jpg",
+"name":"Double Cheeseburger",
+"code":"5765",
+"price":35455,
+"desc":"Double 100% daging sapi Australia juicy yang dipanggang sempurna dengan kesegaran acar, saus mustard, saus tomat, dan potongan keju yang gurih, serta dibungkus dengan roti bun panggang lembut",
+"slug":"cheese-burger-favorit"
+},
+{
+"path":"cheese-burger-favorit/paket12.jpg",
+"name":"Mozzarella Cheeseburger",
+"code":"5035",
+"price":36364,
+"desc":"",
+"slug":"cheese-burger-favorit"
+},
+{
+"path":"cheese-burger-favorit/paket13.jpg",
+"name":"Royal Chicken Burger",
+"code":"6825",
+"price":31364,
+"desc":"",
+"slug":"cheese-burger-favorit"
+}

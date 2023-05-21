@@ -26,7 +26,7 @@ export default async function (props: NewsProps) {
     const renderNews = news.map(({ slug, banner }: NewsType, i: number) => (
         <Link href={`/news/${slug}`} key={i} className={css.wrapper_banner}>
             <Image src={`/img/news/${banner}`} alt="" width={0} height={0}
-                sizes="100vw" priority style={{ width: '100%', height: 'auto' }} />
+                sizes="100vw" priority style={{ width: '100%', height: 'auto', borderRadius: "10px" }} />
         </Link>
     ));
 
