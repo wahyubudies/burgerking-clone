@@ -6,7 +6,7 @@ import '@splidejs/react-splide/css';
 import Image from "next/image";
 import Link from "next/link";
 import SliderShowJSON from "@/json/slideshow.json";
-import { SliderType } from "@/type/slider.type";
+import { SliderType } from "@/type/frontliner.type";
 
 interface SlideShowImageProps {
 }
@@ -27,7 +27,7 @@ export const SlideShowImage: FunctionComponent<SlideShowImageProps> = () => {
         getSlideShow();
     }, []);
 
-    const renderSlider = () => slider.map(({ filename }, i) => (
+    const renderSlider = slider.map(({ filename }, i) => (
         <SplideSlide key={i}>
             <Link href="/" >
                 <Image src={`/img/sliders/${filename}`} width={0} height={0} sizes="100vw" style={{ width: "100%", height: "auto" }} alt="" priority={true} />
@@ -41,7 +41,7 @@ export const SlideShowImage: FunctionComponent<SlideShowImageProps> = () => {
             interval: 2000,
             autoplay: true
         }}>
-            {renderSlider()}
+            {renderSlider}
         </Splide>
     );
 };

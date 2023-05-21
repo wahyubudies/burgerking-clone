@@ -1,0 +1,40 @@
+@import "../../../app/variables.module.scss";
+
+.wrapper_detail {
+    max-width: 560px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px 2%;
+    box-shadow: 2px 2px 15px -4px #6b6b6b;
+
+    .content {
+        margin-top: 30px;
+
+        .title {
+            display: block;
+            font: 26px/30px $flame-regular;
+            color: $brown-color;
+            margin-bottom: 0;
+        }
+
+        .subtitle {
+            font-family: $flame-sans;
+            margin: 30px 0 15px;
+            line-height: 22px;
+            font-weight: 800;
+        }
+
+        ul>li {
+            font-family: $flame-sans;
+            line-height: 22px;
+        }
+
+        .subfooter {
+            font-family: $flame-sans;
+            line-height: 22px;
+            margin-top: 30px;
+            font-weight: 800;
+        }
+    }
+}

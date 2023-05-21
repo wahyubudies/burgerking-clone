@@ -2,7 +2,7 @@ import { SlideShowImage } from '@/components/SlideShowImage/SlideShowImage';
 import { CardCatalog } from '@/components/CardCatalog/CardCatalog';
 import MENU_JSON from "@/json/menu.json";
 import css from "./page.module.scss";
-import { MenuType } from '@/type/menu.type';
+import { MenuType } from '@/type/frontliner.type';
 
 export const metadata = {
     title: 'Home - Burger King',
@@ -13,7 +13,7 @@ const loadMenu = () => new Promise((resolve, reject) => {
     return resolve(MENU_JSON);
 });
 
-export default async function Home(props: any) {
+export default async function (props: any) {
     const menuData = await loadMenu();
 
     const [menu] = await Promise.all<any>([menuData]);

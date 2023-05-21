@@ -23,7 +23,7 @@ export const NavBar: FunctionComponent<NavBarProps> = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link href='/' className="text-decoration-none">
+                            <Link href='/news' className="text-decoration-none">
                                 <span className={css.subtitle}>Get Fresh</span>
                                 <span className={css.title}>Promotions</span>
                             </Link>

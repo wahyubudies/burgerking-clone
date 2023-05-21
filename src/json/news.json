@@ -1,0 +1,60 @@
+[
+    {
+        "banner": "news1.jpg",
+        "title": "Cheeseburger 10K",
+        "filename": "promonews1.jpg",
+        "slug": "heeseburger-10k",
+        "terms_condition": [
+            "Promo berlaku pada 19 - 31 Mei 2023",
+            "Promo Cheeseburger dengan harga Rp.10.000",
+            "Promo berlaku nasional untuk Delivery, Contactless Dine-in, atau Pre-order Takeaway",
+            "Promo dalam bentuk kupon diberikan saat login",
+            "Setiap kupon hanya dapat digunakan sebanyak satu (1) kali selama periode promo",
+            "Kupon hanya diberikan pada pengguna yang sudah terdaftar sebelum tanggal 19 Mei 2023"
+        ]
+    },
+    {
+        "banner": "news2.jpg",
+        "title": "Begadang Kenyang",
+        "filename": "promonews2.jpg",
+        "slug": "begadang-kenyang",
+        "terms_condition": [
+            "Promo berlaku pada 19 - 31 Mei 2023",
+            "Berlaku hanya pada jam 22.00 - 04.00 WIB",
+            "Diskon 50% senilai hingga Rp40.000, dengan minimum transaksi senilai Rp60.000",
+            "Promo ini tidak berlaku untuk produk promo lainnya, seperti: King's Chicken,, King Deals, Side & Dessert, BK App Exclusive Menu, Whopper Wednesday, Friyay Chicken dan Kupon Mei",
+            "Promo berlaku nasional untuk Delivery, Contactless Dine-in, atau Pre-order Takeaway",
+            "Promo dalam bentuk kupon diberikan saat login",
+            "Setiap kupon hanya dapat digunakan sebanyak satu (1) kali selama periode promo",
+            "Kupon hanya diberikan pada pengguna yang sudah terdaftar sebelum tanggal 19 Mei 2023"
+        ]
+    },
+    {
+        "banner": "news3.jpg",
+        "title": "Promo Mandiri 50%",
+        "filename": "promonews3.jpg",
+        "slug": "promo-mandiri-50",
+        "terms_condition": [
+            "Cashback 50% maksimal Rp 25.000 dengan minimal transaksi Rp 50.000",
+            "Berlaku setiap hari hingga 30 Juni 2023",
+            "Nasabah wajib memiliki aplikasi Livin' by Mandiri (logo kuning) terbaru yang sudah memiliki fitur QRIS Payment dengan Mandiri Kartu Kredit",
+            "Cashback berlaku maksimal 1 kali/nasabah/merchant/minggu",
+            "Berlaku untuk Dine-in, Drive-Thru & Takeaway"
+        ]
+    },
+    {
+        "banner": "news4.jpg",
+        "title": "Birthday Voucher",
+        "filename": "promonews4.jpg",
+        "slug": "birthday-voucher",
+        "terms_condition": [
+            "Diskon 50% senilai hingga Rp45.000, dengan minimum transaksi Rp60.000",
+            "Kupon ini tidak berlaku untuk produk promo lainnya, seperti: Apps Exclusive Menu, King Deals, Bokek, Kupon pada bulan tersebut",
+            "Promo berlaku nasional untuk transaksi jenis apapun melalui www.bkdelivery.co.id dan Aplikasi BK (baik untuk Delivery order, Contactless Dine-in, atau Pre-Order Takeaway)",
+            "Promo dalam bentuk kupon diberikan saat login",
+            "Setiap kupon hanya dapat digunakan sebanyak satu (1) kali selama periode tahun tersebut",
+            "Setiap pengguna hanya dapat memperoleh satu (1) kupon promo",
+            "Periode kupon berlaku 2 minggu setelah mendapatkan kupon yang akan diberikan pada 6 hari sebelum hari ulang tahun"
+        ]
+    }
+]
