@@ -38,20 +38,22 @@ export default async function (props: DetailNewsProps) {
     ));
 
     return (
-        <div className={css.wrapper_detail}>
-            <Image src={`/img/news/${news.filename}`} alt="" width={0} height={0} sizes="100vw" style={{
-                objectFit: "contain", width: "100%",
-                height: "auto", margin: "auto",
-                display: "block", borderRadius: "10px"
-            }} />
+        <div className="container">
+            <div className={css.wrapper_detail}>
+                <Image src={`/img/news/${news.filename}`} alt="" width={0} height={0} sizes="100vw" style={{
+                    objectFit: "contain", width: "100%",
+                    height: "auto", margin: "auto",
+                    display: "block", borderRadius: "10px"
+                }} />
 
-            <div className={css.content}>
-                <h1 className={css.title}>{news.title}</h1>
-                <p className={css.subtitle}>Syarat dan Ketentuan</p>
-                <ul>
-                    {renderTermsContent}
-                </ul>
-                <p className={css.subfooter}>*S&K Berlaku</p>
+                <div className={css.content}>
+                    <h1 className={css.title}>{news.title}</h1>
+                    <p className={css.subtitle}>Syarat dan Ketentuan</p>
+                    <ul>
+                        {renderTermsContent}
+                    </ul>
+                    <p className={css.subfooter}>*S&K Berlaku</p>
+                </div>
             </div>
         </div>
     );

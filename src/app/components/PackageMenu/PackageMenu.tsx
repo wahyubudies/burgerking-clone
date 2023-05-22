@@ -9,7 +9,7 @@ interface PackageMenuProps {
 export const PackageMenu: FunctionComponent<PackageMenuProps> = ({ packages }: PackageMenuProps) => {
 
     const renderContent = packages ? packages.map(({ path, name, price, code, slug }, i) => (
-        <div className="col-6 mb-4" key={i}>
+        <div className="col-12 col-lg-6 mb-4" key={i}>
             <CardCatalog path={`/img/menu_package/${path}`}
                 name={name} price={price} directTo={`product/${slug}/${code}`} />
         </div>

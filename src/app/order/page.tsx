@@ -42,13 +42,16 @@ export default function (props: { children: ReactNode; }) {
 
     const renderContent = isLoading ? "Loading..." : (<PackageMenu packages={selectedPackage} />);
     return (
-        <div className={css.wrapper_content}>
-            <div className="row">
-                <div className="col-12 col-lg-3">
-                    <SideBarMenu onChooseMenu={handleChooseMenu} slug={slug} />
-                </div>
-                <div className="col-12 col-lg-9">
-                    {renderContent}
+        <div className="container">
+
+            <div className={css.wrapper_content}>
+                <div className="row">
+                    <div className="col-12 col-lg-3">
+                        <SideBarMenu onChooseMenu={handleChooseMenu} slug={slug} />
+                    </div>
+                    <div className="col-12 col-lg-9">
+                        {renderContent}
+                    </div>
                 </div>
             </div>
         </div>

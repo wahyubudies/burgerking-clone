@@ -31,8 +31,8 @@ export default async function (props: NewsProps) {
     ));
 
     return (
-        <>
+        <div className="container">
             {renderNews}
-        </>
+        </div>
     );
 };
