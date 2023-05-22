@@ -14,7 +14,7 @@ interface ProductOrderProps {
 const loadData = (code: string, slug: string) => new Promise((resolve, reject) => {
     // @ts-ignore
     const container = ORDER_JSON[slug];
-    const result = container && container.find((c: PackageType) => c.code === code);
+    const result = container ? container.find((c: PackageType) => c.code === code) : "";
     resolve(result);
 });
 
