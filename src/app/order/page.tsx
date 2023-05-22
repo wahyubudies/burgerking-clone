@@ -2,12 +2,11 @@
 
 import { SideBarMenu } from "@/app/components/SideBarMenu/SideBarMenu";
 import css from "./page.module.scss";
-import { ReactNode, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import MENU_JSON from "@/json/menu.json";
 import PACKAGE_JSON from "@/json/menu_package.json";
 import { PackageType } from "@/type/frontliner.type";
 import { PackageMenu } from "../components/PackageMenu/PackageMenu";
-import { useMenuStore } from "@/store/web.store";
 
 const loadData = (slug: string) => new Promise((resolve, reject) => {
     // @ts-ignore 
@@ -15,7 +14,7 @@ const loadData = (slug: string) => new Promise((resolve, reject) => {
     return resolve(result);
 });
 
-export default function (props: { children: ReactNode; }) {
+export default function () {
 
     const [slug, setSlug] = useState(MENU_JSON[0].slug);
     const [selectedPackage, setPackage] = useState<PackageType[]>([]);
