@@ -1,0 +1,12 @@
+@import "../../variables.module.scss";
+
+.grand_total {
+    font: 28px/32px $barlow-medium;
+}
+
+.add_ons {
+    color: $brown-color;
+    vertical-align: top;
+    font-weight: bold;
+    font: 11px/18px $barlow-regular;
+}

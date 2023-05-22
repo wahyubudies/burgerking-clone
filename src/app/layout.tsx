@@ -7,6 +7,7 @@ import './globals.css';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import { Footer } from '@/app/components/Footer/Footer';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function RootLayout({
   children,

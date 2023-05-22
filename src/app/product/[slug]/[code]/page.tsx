@@ -1,9 +1,8 @@
 import Image from "next/image";
 import css from "./page.module.scss";
-import numeral from "numeral";
 import ORDER_JSON from "@/json/menu_package.json";
-import { Button } from "@/app/components/Button/Button";
 import { PackageType } from "@/type/frontliner.type";
+import { GrandTotal } from "@/app/components/GrandTotal/GrandTotal";
 
 interface ProductOrderProps {
     params: {
@@ -48,25 +47,7 @@ export default async function (props: ProductOrderProps) {
                         </p>
                     </div>
                     <div className={`col-12 col-lg-4 ${css.right}`}>
-                        <h2 className={css.grand_total}>
-                            Rp. {numeral(order.price).format('0,0')}
-                        </h2>
-                        <p className={`${css.add_ons} mb-0`}>Add Ons</p>
-                        <p className={css.add_ons}>-</p>
-
-                        <div className={css.wrapper_qty}>
-                            <button type="button" className={`${css.button_min}`} id="button-min">
-                                <img src="/img/minus.png" />
-                            </button>
-                            <input id="quantity-input" type="text" className={`${css.input_qty}`} value="1" maxLength={2} disabled />
-                            <button type="button" className={`${css.button_add}`} id="button-add">
-                                <img src="/img/plus.png" />
-                            </button>
-                        </div>
-
-                        <Button className={`w-100`} >
-                            Add to Cart
-                        </Button>
+                        <GrandTotal price={order.price} />
                     </div>
                 </div>
             </div>

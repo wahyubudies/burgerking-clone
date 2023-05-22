@@ -80,11 +80,15 @@
                 top: 25%;
                 transform: translate(-50%, -50%);
                 background-color: red;
-                color: $white;
+                color: #ffffff;
                 border-radius: 100%;
-                font-size: 14px;
-                padding: 1px 7px 2px 7px;
+                font-size: 12px;
                 font-family: $barlow-medium;
+                width: 22px;
+                height: 22px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
         }
     }

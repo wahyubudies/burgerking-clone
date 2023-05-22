@@ -37,59 +37,5 @@
 
     .right {
         padding: 30px 10px 30px 30px;
-
-        .grand_total {
-            font: 28px/32px $barlow-medium;
-        }
-
-        .add_ons {
-            color: $brown-color;
-            vertical-align: top;
-            font-weight: bold;
-            font: 11px/18px $barlow-regular;
-        }
-
-        .wrapper_qty {
-            border-radius: 5px;
-            border: 1px solid #e0e0e0;
-            height: 37px;
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
-            width: 100%;
-
-            .button_min {
-                background-color: #fff;
-                border: none;
-                cursor: pointer;
-                outline: none;
-                width: 45px;
-                padding: 0;
-            }
-
-            .input_qty {
-                // flex-grow: 1;
-                border: none;
-                box-sizing: initial;
-                color: #919191;
-                font-size: 17px;
-                font-family: "Flame-Regular";
-                margin-bottom: 0px;
-                padding: 0 8px;
-                text-align: center;
-                height: 35px;
-                // border-top: 1px solid #e0e0e0;
-                // border-bottom: 1px solid #e0e0e0;
-            }
-
-            .button_add {
-                background-color: #fff;
-                border: none;
-                cursor: pointer;
-                outline: none;
-                width: 45px;
-                padding: 0;
-            }
-        }
     }
 }

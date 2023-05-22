@@ -1,13 +1,18 @@
+"use client";
+
 import { FunctionComponent } from "react";
 import css from "@/app/components/NavBar/NavBar.module.scss";
 import Image from "next/image";
 import Link from "next/link";
+import { useCartStore } from "@/store/web.store";
 
 interface NavBarProps {
 
 }
 
 export const NavBar: FunctionComponent<NavBarProps> = () => {
+    const carts = useCartStore((state: any) => state.cart);
+
     return (
         <div className={css.navigation_block}>
             <div className="container d-flex justify-content-between h-100">
@@ -41,7 +46,7 @@ export const NavBar: FunctionComponent<NavBarProps> = () => {
                         Login
                     </Link>
                     <div className={css.cart_block}>
-                        <div className={css.cart_counter}>0</div>
+                        <div className={css.cart_counter}>{carts.count}</div>
                         <Image src="/img/icon/cart.png" width={28} height={28} alt="" />
                     </div>
                 </div>
