@@ -33,9 +33,9 @@ export default async function (props: DetailNewsProps) {
 
     const news = await Promise.resolve(detailNewsData);
 
-    const renderTermsContent = news.terms_condition.map((content, i) => (
+    const renderTermsContent = news.terms_condition ? news.terms_condition.map((content, i) => (
         <li key={i}>{content}</li>
-    ));
+    )) : "";
 
     return (
         <div className="container">
