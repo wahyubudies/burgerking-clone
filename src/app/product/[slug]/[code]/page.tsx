@@ -47,7 +47,7 @@ export default async function (props: ProductOrderProps) {
                         </p>
                     </div>
                     <div className={`col-12 col-lg-4 ${css.right}`}>
-                        <GrandTotal price={order.price} />
+                        <GrandTotal orderitem={order} />
                     </div>
                 </div>
             </div>

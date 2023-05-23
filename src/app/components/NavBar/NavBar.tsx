@@ -51,10 +51,12 @@ export const NavBar: FunctionComponent<NavBarProps> = () => {
                         <Link href="/" className={css.login_block}>
                             Login
                         </Link>
-                        <div className={css.cart_block}>
-                            <div className={css.cart_counter}>{carts.count}</div>
-                            <Image src="/img/icon/cart.png" width={28} height={28} alt="" />
-                        </div>
+                        <Link href="/cart/preview">
+                            <div className={css.cart_block}>
+                                <div className={css.cart_counter}>{carts.count}</div>
+                                <Image src="/img/icon/cart.png" width={28} height={28} alt="" />
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -66,12 +68,12 @@ export const NavBar: FunctionComponent<NavBarProps> = () => {
                     <Link href="/">
                         <Image src="/img/logo.png" alt="" width={0} height={0} className={css.logo} priority={true} sizes="100vw" />
                     </Link>
-                    <div className={css.cart_block}>
-                        <Link href="/cart/preview" id="cart" className="cart">
+                    <Link href="/cart/preview" className="cart">
+                        <div className={css.cart_block}>
                             <span className={css.badge}>{carts.count}</span>
                             <img src="/img/icon/cart.png" />
-                        </Link>
-                    </div>
+                        </div>
+                    </Link>
                 </div>
             </div>
             <div className={`${css.overlay_mobile} ${isOpen ? "" : `${css.close}`}`}>

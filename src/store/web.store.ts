@@ -9,7 +9,7 @@ export const useMenuStore: any = create((set: any) => ({
 export const useCartStore: any = create((set: any) => ({
     cart: {
         count: 0,
-        items: []
+        items: [],
     },
     setCart: (item: any) => {
         set((state: any) => ({

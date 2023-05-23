@@ -5,12 +5,13 @@ import css from "@/app/components/InputQty/InputQty.module.scss";
 
 interface InputQtyProps {
     currentPrice: number;
-    handlePrice: (result: number, qty: number) => void;
+    handlePrice: (result: number, qty: number, index?: number) => void;
+    qty?: number;
 }
 
 export const InputQty: FunctionComponent<InputQtyProps> = (props: InputQtyProps) => {
     const ref = useRef(false);
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(props.qty ?? 0);
 
     useEffect(() => {
         if (ref.current) {

@@ -1,0 +1,152 @@
+@import "../../variables.module.scss";
+
+.wrapper_content {
+    max-width: 960px;
+    margin: 30px auto 30vh;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 0 30px;
+    box-shadow: 2px 2px 15px -4px #6b6b6b;
+
+    .left_block {
+        padding: 25px 30px;
+        overflow-x: auto;
+        border-right: 1px solid #e0e0e0;
+
+        .table {
+            border-spacing: 0px;
+            border-collapse: collapse;
+            width: 100%;
+
+            tbody {
+                display: table-row-group;
+                vertical-align: middle;
+                border-color: inherit;
+
+                tr {
+                    border-bottom: 1px solid #e0e0e0;
+                    display: table-row;
+                    vertical-align: inherit;
+                    border-color: inherit;
+
+                    th {
+                        font: 13px/22px $flame-regular;
+                        text-transform: capitalize;
+                        text-align: left;
+                        padding-bottom: 8px;
+                        min-width: 100px;
+                        border-bottom: 1px solid #e0e0e0;
+                    }
+
+                    td {
+                        padding: 15px 0px;
+                        border-bottom: 1px solid #e0e0e0;
+                        font: 14px/20px $flame-sans;
+                        vertical-align: top;
+                        position: relative;
+
+                        span {
+                            font: 14px/20px $flame-sans;
+                        }
+
+
+
+                        img.garbage {
+                            max-width: 16px !important;
+                            margin: 5px !important;
+                            position: relative;
+                            top: -2px;
+                            min-width: unset !important;
+                            width: 16px;
+                        }
+
+                        .link_shopping {
+                            font: 18px/18px $barlow-medium;
+                            color: $orange-color;
+                            text-decoration: none;
+                        }
+
+                        .wrapper_qty {
+                            max-width: 100px;
+                        }
+                    }
+
+                    .description {
+                        max-width: 240px;
+                    }
+                }
+            }
+        }
+
+        .notes_wrapper {
+            margin-top: 30px;
+
+            h2 {
+                font: 13px/22px $flame-sans;
+                margin: 0px;
+                padding: 0px;
+            }
+
+            input {
+                font: 15px/20px $flame-sans;
+                width: 100%;
+                padding: 10px 15px;
+                margin-bottom: 10px;
+                border: 1px solid #e0e0e0;
+                border-radius: 5px;
+                color: #404040;
+                box-sizing: border-box;
+            }
+
+            .note_char_counter {
+                font-size: 0.75rem;
+                color: #b7b7b7;
+                float: right;
+                padding-bottom: 2.5rem;
+            }
+        }
+    }
+
+    .right_block {
+        padding: 25px 30px;
+
+        h2 {
+            font: 13px/22px $flame-sans;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .grandtotal {
+            font: 28px/32px $flame-regular;
+        }
+
+        .info {
+            font: 11px/15px $flame-sans;
+            color: #919191;
+            margin: 15px 0px 30px;
+        }
+
+        .link {
+            text-align: center;
+            color: $orange-color;
+            padding: 10px 0px;
+            margin-top: 10px;
+            width: 100%;
+            display: table;
+            font: 18px/22px $flame-regular;
+            background: #ebebeb;
+            box-shadow: none;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    }
+}
+
+.item_wrapper_img {
+    img {
+        max-width: 65px;
+        width: 100%;
+    }
+}
