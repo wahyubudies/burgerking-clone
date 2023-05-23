@@ -7,6 +7,7 @@ interface InputQtyProps {
     currentPrice: number;
     handlePrice: (result: number, qty: number, index?: number) => void;
     qty?: number;
+    index?: number;
 }
 
 export const InputQty: FunctionComponent<InputQtyProps> = (props: InputQtyProps) => {
@@ -16,7 +17,7 @@ export const InputQty: FunctionComponent<InputQtyProps> = (props: InputQtyProps)
     useEffect(() => {
         if (ref.current) {
             let result: number = calculatePrice(props.currentPrice, count) as number;
-            props.handlePrice(result, count);
+            props.handlePrice(result, count, props.index);
             ref.current = false;
         }
     }, [count]);

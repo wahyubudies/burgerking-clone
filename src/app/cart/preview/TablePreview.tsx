@@ -4,6 +4,7 @@ import css from "./page.module.scss";
 import { useCartStore } from "@/store/web.store";
 import { InputQty } from "@/app/components/InputQty/InputQty";
 import numeral from "numeral";
+import { useState } from "react";
 
 interface TablePreviewProps {
 
@@ -12,16 +13,7 @@ interface TablePreviewProps {
 export const TablePreview = (props: TablePreviewProps) => {
     const carts = useCartStore((state: any) => state.cart);
 
-    const handlePrice = () => {
-        // console.log("🚀 ~ file: TablePreview.tsx:16 ~ handlePrice ~ result:", result);
-
-    };
-
-    const newItems = carts.items.map((i: any) => {
-        const { order, qty, subtotal } = i;
-    });
-
-    const renderRow = newItems.map(({ subtotal, qty, order }: any, i: number) => (
+    const renderRow = carts.items.map(({ subtotal, qty, order }: any, i: number) => (
         <tr className="cart-item-row" key={i}>
             <td className={css.item_wrapper_img}>
                 <img src={`/img/menu_package/${order.path}`} className="image" />
@@ -33,7 +25,8 @@ export const TablePreview = (props: TablePreviewProps) => {
             </td>
             <td>
                 <div className={css.wrapper_qty}>
-                    <InputQty currentPrice={subtotal} handlePrice={handlePrice} qty={qty} />
+                    {numeral(subtotal).format('0, 0')}
+                    {/* <InputQty currentPrice={subtotal} handlePrice={handlePrice} qty={qty} index={i} /> */}
                 </div>
             </td>
             <td className="text-end">Rp. <span className="item-subtotal text-end">
