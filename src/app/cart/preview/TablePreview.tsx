@@ -13,7 +13,24 @@ interface TablePreviewProps {
 export const TablePreview = (props: TablePreviewProps) => {
     const carts = useCartStore((state: any) => state.cart);
 
-    const renderRow = carts.items.map(({ subtotal, qty, order }: any, i: number) => (
+    const container: any = {};
+    for (let i = 0; i < carts.items.length; i++) {
+        const key = carts.items[i].name;
+        if (!container[key]) {
+            container[key] = [];
+        }
+        container[key].push(carts.items[i]);
+    }
+
+    const result = [];
+    for (let key in container) {
+        const qty = container[key].reduce((prev: any, next: any) => prev + next.qty, 0);
+        const subtotal = container[key].reduce((prev: any, next: any) => prev + next.subtotal, 0);
+        const order = container[key][0].order;
+        result.push({ qty, subtotal, title: key, order });
+    }
+
+    const renderRow = result.map(({ subtotal, qty, order }: any, i: number) => (
         <tr className="cart-item-row" key={i}>
             <td className={css.item_wrapper_img}>
                 <img src={`/img/menu_package/${order.path}`} className="image" />

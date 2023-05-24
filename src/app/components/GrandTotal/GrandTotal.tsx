@@ -15,10 +15,10 @@ interface GrandTotalProps {
 export const GrandTotal: FunctionComponent<GrandTotalProps> = (props: GrandTotalProps) => {
     const carts = useCartStore((state: any) => state.cart);
     const setCart = useCartStore((state: any) => state.setCart);
-    const [item, setItem] = useState({ subtotal: 0, qty: 0, order: {} });
+    const [item, setItem] = useState({ subtotal: 0, qty: 0, order: {}, name: "" });    
 
     const handlePrice = (result: number, qty: number) => {
-        setItem({ subtotal: result, qty, order: props.orderitem });
+        setItem({ subtotal: result, qty, order: props.orderitem, name: props.orderitem.name });
     };
 
     const handleAddOrder = () => {
@@ -53,9 +53,9 @@ export const GrandTotal: FunctionComponent<GrandTotalProps> = (props: GrandTotal
         });
     };
 
-    const showCart = () => {
-        console.log(carts);
-    };
+    // const showCart = () => {
+    //     console.log(carts);
+    // };
 
     return (
         <>
@@ -72,9 +72,9 @@ export const GrandTotal: FunctionComponent<GrandTotalProps> = (props: GrandTotal
             </Button>
 
             <ToastContainer />
-            <Button className={`w-100`} onClick={showCart}>
+            {/* <Button className={`w-100`} onClick={showCart}>
                 Show
-            </Button>
+            </Button> */}
         </>
     );
 };

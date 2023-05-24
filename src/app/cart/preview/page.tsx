@@ -1,9 +1,12 @@
+"use client";
+
 import { Button } from "@/app/components/Button/Button";
 import css from "./page.module.scss";
 import Link from "next/link";
 import { useState } from "react";
 import { TablePreview } from "./TablePreview";
 import { useCartStore } from "@/store/web.store";
+import numeral from "numeral";
 
 interface Props {
 
@@ -12,17 +15,31 @@ interface Props {
 export function getStaticProps() {
     const carts = useCartStore((state: any) => state.cart);
     return {
-        props:{ carts}
+        props: { carts }
     };
 }
 
 export default function (props: any) {
-    console.log("🚀 ~ file: page.tsx:20 ~ props:", props);
-    // const [note, setNote] = useState("");
+    const carts = useCartStore((state: any) => state.cart);
 
-    // const handleChangeNote = (e: any) => {
-    //     setNote(e.target.value);
-    // };
+    const container: any = {};
+    for (let i = 0; i < carts.items.length; i++) {
+        const key = carts.items[i].name;
+        if (!container[key]) {
+            container[key] = [];
+        }
+        container[key].push(carts.items[i]);
+    }
+
+    const result = [];
+    for (let key in container) {
+        const qty = container[key].reduce((prev: any, next: any) => prev + next.qty, 0);
+        const subtotal = container[key].reduce((prev: any, next: any) => prev + next.subtotal, 0);
+        const order = container[key][0].order;
+        result.push({ qty, subtotal, title: key, order });
+    }
+
+    const grandTotal = result.reduce((prev, next) => prev + next.subtotal, 0);
 
     return (
         <div className="container">
@@ -37,8 +54,9 @@ export default function (props: any) {
                         </div> */}
                     </div>
                     <div className={`col-12 col-lg-4 ${css.right_block}`}>
-                        <h2>Order Subtotal*</h2>
-                        <div className={css.grandtotal}>Rp. <span className={css.number}>50,000</span></div>
+                        <h2>Order Grand Total*</h2>
+                        <div className={css.grandtotal}>Rp. <span className={css.number}>
+                            {numeral(grandTotal).format('0,0')}</span></div>
                         <div className={css.info}>*Price might change due to your delivery location.</div>
 
                         <div>
